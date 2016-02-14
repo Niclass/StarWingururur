@@ -1,0 +1,16 @@
+﻿Build started 2016-02-14 13:30:36.
+     1>Project "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\Intermediate\ProjectFiles\StarFox.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" StarFoxEditor Win64 Development "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\StarFox.uproject" -rocket -waitmutex
+         Creating makefile for hot reloading StarFoxEditor (game project files are newer)
+         Compiling game modules for hot reload
+     1>EXEC : error : All source files in module "StarFox" must include the same precompiled header first.  Currently "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\Source\StarFox\StarFox.h" is included by most of the source files.  The following source files are not including "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\Source\StarFox\StarFox.h" as their first include:
+         
+         C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\Source\StarFox\StarFoxGameMode.cpp (including C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\UMG\Public\Blueprint\UserWidget.h)
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command ""C:\Program Files\Epic Games\4.9\Engine\Build\BatchFiles\Build.bat" StarFoxEditor Win64 Development "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\StarFox.uproject" -rocket -waitmutex" exited with code -1.
+     1>Done Building Project "C:\Users\Niclas\Documents\GitHub\Staroxurur\StarFox\Intermediate\ProjectFiles\StarFox.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.44
