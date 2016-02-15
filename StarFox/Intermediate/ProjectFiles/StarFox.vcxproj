@@ -258,6 +258,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\StarFox\Bullet.cpp" />
+		<ClInclude Include="..\..\Source\StarFox\Bullet.h" />
 		<ClCompile Include="..\..\Source\StarFox\Crosshair.cpp" />
 		<ClInclude Include="..\..\Source\StarFox\Crosshair.h" />
 		<ClCompile Include="..\..\Source\StarFox\PawnWithCamera.cpp" />

@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define STARFOX_ring_generated_h
 
-#define StarFox_Source_StarFox_ring_h_11_RPC_WRAPPERS \
+#define StarFox_Source_StarFox_ring_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnBeginOverlap) \
 	{ \
@@ -30,7 +30,7 @@ struct FHitResult;
 	}
 
 
-#define StarFox_Source_StarFox_ring_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define StarFox_Source_StarFox_ring_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnBeginOverlap) \
 	{ \
@@ -44,7 +44,7 @@ struct FHitResult;
 	}
 
 
-#define StarFox_Source_StarFox_ring_h_11_INCLASS_NO_PURE_DECLS \
+#define StarFox_Source_StarFox_ring_h_12_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAring(); \
 	friend STARFOX_API class UClass* Z_Construct_UClass_Aring(); \
@@ -55,7 +55,7 @@ struct FHitResult;
 	virtual UObject* _getUObject() const override { return const_cast<Aring*>(this); }
 
 
-#define StarFox_Source_StarFox_ring_h_11_INCLASS \
+#define StarFox_Source_StarFox_ring_h_12_INCLASS \
 	private: \
 	static void StaticRegisterNativesAring(); \
 	friend STARFOX_API class UClass* Z_Construct_UClass_Aring(); \
@@ -66,7 +66,7 @@ struct FHitResult;
 	virtual UObject* _getUObject() const override { return const_cast<Aring*>(this); }
 
 
-#define StarFox_Source_StarFox_ring_h_11_STANDARD_CONSTRUCTORS \
+#define StarFox_Source_StarFox_ring_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API Aring(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aring) \
@@ -78,7 +78,7 @@ private: \
 public:
 
 
-#define StarFox_Source_StarFox_ring_h_11_ENHANCED_CONSTRUCTORS \
+#define StarFox_Source_StarFox_ring_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API Aring(const Aring& InCopy); \
@@ -88,23 +88,23 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Aring); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(Aring)
 
 
-#define StarFox_Source_StarFox_ring_h_8_PROLOG
-#define StarFox_Source_StarFox_ring_h_11_GENERATED_BODY_LEGACY \
+#define StarFox_Source_StarFox_ring_h_9_PROLOG
+#define StarFox_Source_StarFox_ring_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StarFox_Source_StarFox_ring_h_11_RPC_WRAPPERS \
-	StarFox_Source_StarFox_ring_h_11_INCLASS \
-	StarFox_Source_StarFox_ring_h_11_STANDARD_CONSTRUCTORS \
+	StarFox_Source_StarFox_ring_h_12_RPC_WRAPPERS \
+	StarFox_Source_StarFox_ring_h_12_INCLASS \
+	StarFox_Source_StarFox_ring_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StarFox_Source_StarFox_ring_h_11_GENERATED_BODY \
+#define StarFox_Source_StarFox_ring_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StarFox_Source_StarFox_ring_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	StarFox_Source_StarFox_ring_h_11_INCLASS_NO_PURE_DECLS \
-	StarFox_Source_StarFox_ring_h_11_ENHANCED_CONSTRUCTORS \
+	StarFox_Source_StarFox_ring_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	StarFox_Source_StarFox_ring_h_12_INCLASS_NO_PURE_DECLS \
+	StarFox_Source_StarFox_ring_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

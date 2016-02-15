@@ -13,8 +13,38 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STARFOX_StarFoxGameMode_generated_h
 
-#define StarFox_Source_StarFox_StarFoxGameMode_h_12_RPC_WRAPPERS
-#define StarFox_Source_StarFox_StarFoxGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define StarFox_Source_StarFox_StarFoxGameMode_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddTime) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_AddedTime); \
+		P_FINISH; \
+		this->AddTime(Z_Param_AddedTime); \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTime) \
+	{ \
+		P_FINISH; \
+		*(int32*)Z_Param__Result=this->GetTime(); \
+	}
+
+
+#define StarFox_Source_StarFox_StarFoxGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddTime) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_AddedTime); \
+		P_FINISH; \
+		this->AddTime(Z_Param_AddedTime); \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTime) \
+	{ \
+		P_FINISH; \
+		*(int32*)Z_Param__Result=this->GetTime(); \
+	}
+
+
 #define StarFox_Source_StarFox_StarFoxGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAStarFoxGameMode(); \

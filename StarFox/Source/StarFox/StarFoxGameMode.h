@@ -4,22 +4,32 @@
 #include "StarFoxGameMode.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class STARFOX_API AStarFoxGameMode : public AGameMode
 {
 	GENERATED_BODY()
 public:
-		virtual void BeginPlay() override;
-		virtual void Tick(float DeltaSeconds) override;
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaSeconds) override;
 
-		UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<class UUserWidget> HUDWidgetClass;
-	
-	UPROPERTY()
-		class UUserWidget* CurrentWidget;
 
-		FTimerHandle handle;
+	UPROPERTY(VisibleAnywhere)
+		int32 Time = 2000;
+
+	UFUNCTION(BlueprintPure, Category = "Time")
+		int32 GetTime();
+
+	UFUNCTION(Category = "Time")
+		void AddTime(int32 AddedTime);
+
+	UPROPERTY()
+	class UUserWidget* CurrentWidget;
+
 	
+
+
 };

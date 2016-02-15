@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\StarFox.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{87A71B80-0283-41F0-8E67-D1B114980298}</UniqueIdentifier>
+			<UniqueIdentifier>{082CEBE5-4D20-4F5F-A084-4EB268C47BB4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\StarFox.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{69B3FE59-D77D-4B78-9290-DDD25093549A}</UniqueIdentifier>
+			<UniqueIdentifier>{63A78E78-A795-4845-BF29-30285E3E241B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\StarFox">
-			<UniqueIdentifier>{7F1481EF-AD38-44A9-878F-8EFC8FEA647B}</UniqueIdentifier>
+			<UniqueIdentifier>{4220F5E9-C3F3-48BE-9F70-300FDF38D398}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\StarFox\Bullet.cpp">
+			<Filter>Source\StarFox</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StarFox\Bullet.h">
+			<Filter>Source\StarFox</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\StarFox\Crosshair.cpp">
 			<Filter>Source\StarFox</Filter>
 		</ClCompile >

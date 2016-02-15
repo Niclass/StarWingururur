@@ -21,11 +21,19 @@ void AStarFoxGameMode::BeginPlay()
 
 void AStarFoxGameMode::Tick(float DeltaTime)
 {
-	GetWorldTimerManager().SetTimer(handle, 60.0f,
-		false);
 	Super::Tick(DeltaTime);
+	Time--;
 }
 
+int32 AStarFoxGameMode::GetTime()
+{
+	return Time;
+}
+
+void AStarFoxGameMode::AddTime(int32 AddedTime)
+{
+	Time += AddedTime;
+}
 
 
 

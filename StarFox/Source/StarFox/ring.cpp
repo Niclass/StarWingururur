@@ -2,12 +2,14 @@
 
 #include "StarFox.h"
 #include "ring.h"
+#include "PawnWithCamera.h"
+#include "StarFoxGameMode.h"
 
 
 // Sets default values
 Aring::Aring()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
@@ -26,13 +28,13 @@ Aring::Aring()
 void Aring::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
-void Aring::Tick( float DeltaTime )
+void Aring::Tick(float DeltaTime)
 {
-	Super::Tick( DeltaTime );
+	Super::Tick(DeltaTime);
 
 }
 
@@ -40,7 +42,20 @@ void Aring::OnBeginOverlap(AActor* OtherActor, UPrimitiveComponent*
 	OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &
 	SweepResult)
 {
-	Destroy();
+	if (OtherActor->IsA(APawnWithCamera::StaticClass()))
+	{
+		pwc = Cast<APawnWithCamera>(OtherActor);
+		if (pwc != NULL)
+		{
+			pwc->TakeDamage();
+
+		}
+
+		RingMesh->SetVisibility(false);
+		AStarFoxGameMode* gm = (AStarFoxGameMode*)GetWorld()->GetAuthGameMode();
+		gm->AddTime(500);
+		Destroy();
+	}
 }
 
 

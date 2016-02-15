@@ -1,0 +1,1013 @@
+﻿[2016.02.14-21.06.24:183][  0]Log file open, 02/14/16 22:06:24
+[2016.02.14-21.06.24:183][  0]LogInit:Display: Running engine for game: StarFox
+[2016.02.14-21.06.24:183][  0]LogInit:Display: RandInit(1666099042) SRandInit(1666099042).
+[2016.02.14-21.06.24:183][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.14-21.06.24:184][  0]LogStats: Stats thread started at 0.071453
+[2016.02.14-21.06.24:184][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.14-21.06.24:184][  0]LogInit: API Version: 2672455
+[2016.02.14-21.06.24:184][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.02.14-21.06.24:184][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.14-21.06.24:184][  0]LogInit: Build Configuration: Development
+[2016.02.14-21.06.24:184][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.02.14-21.06.24:184][  0]LogInit: Command line:  
+[2016.02.14-21.06.24:184][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.02.14-21.06.24:184][  0]LogInit: Rocket: 1
+[2016.02.14-21.06.24:192][  0]LogInit: Using libcurl 7.41.0
+[2016.02.14-21.06.24:192][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.14-21.06.24:192][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.14-21.06.24:192][  0]LogInit:  - other features:
+[2016.02.14-21.06.24:192][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.14-21.06.24:192][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.14-21.06.24:192][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.14-21.06.24:192][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.14-21.06.24:192][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.14-21.06.24:192][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.14-21.06.24:192][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.14-21.06.24:192][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.14-21.06.24:192][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.14-21.06.24:192][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.14-21.06.24:199][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.14-21.06.24:206][  0]LogInit: Object subsystem initialized
+[2016.02.14-21.06.24:207][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.14-21.06.24:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.14-21.06.24:213][  0]LogInit: Computer: FIDUS
+[2016.02.14-21.06.24:213][  0]LogInit: User: Niclas
+[2016.02.14-21.06.24:213][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.14-21.06.24:213][  0]LogInit: High frequency timer resolution =3.386480 MHz
+[2016.02.14-21.06.24:214][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.14-21.06.24:214][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.14-21.06.24:214][  0]LogMemory: Process Physical Memory: 54.32 MB used, 54.32 MB peak
+[2016.02.14-21.06.24:214][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
+[2016.02.14-21.06.24:214][  0]LogMemory: Physical Memory: 7479.28 MB used, 16332.28 MB total
+[2016.02.14-21.06.24:214][  0]LogMemory: Virtual Memory: 368.25 MB used, 134217728.00 MB total
+[2016.02.14-21.06.24:242][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.14-21.06.24:883][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2016.02.14-21.06.24:883][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 1 output[s]
+[2016.02.14-21.06.24:884][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.14-21.06.24:884][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 0 output[s]
+[2016.02.14-21.06.24:885][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.14-21.06.24:888][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.14-21.06.24:888][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.14-21.06.24:893][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.02.14-21.06.24:902][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Intermediate/Shaders/WorkingDirectory/12760/).
+[2016.02.14-21.06.24:902][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Intermediate/Shaders/tmp/21B9B2D6486C26A3610358B5D5EEF2E0/'.
+[2016.02.14-21.06.24:902][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.14-21.06.25:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.14-21.06.25:811][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.14-21.06.25:816][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.14-21.06.25:821][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.14-21.06.25:826][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.14-21.06.25:829][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.14-21.06.25:831][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.14-21.06.25:835][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.14-21.06.25:838][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.14-21.06.25:841][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.14-21.06.25:845][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.14-21.06.25:848][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.14-21.06.25:849][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.14-21.06.25:865][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.14-21.06.25:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.14-21.06.25:871][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.14-21.06.25:875][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.14-21.06.25:875][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.14-21.06.25:965][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.14-21.06.26:000][  0]LogDerivedDataCache: Loaded boot cache 0.04s 43MB C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.14-21.06.26:001][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.02.14-21.06.26:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.14-21.06.26:001][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.14-21.06.26:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.14-21.06.26:001][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.14-21.06.26:122][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.14-21.06.26:134][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Niclas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.14-21.06.26:307][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.14-21.06.26:310][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.14-21.06.26:418][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.14-21.06.26:418][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.14-21.06.26:641][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.14-21.06.27:257][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.14-21.06.27:371][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.02.14-21.06.27:527][  0]SourceControl: Info Source control is disabled
+[2016.02.14-21.06.27:528][  0]SourceControl: Info Source control is disabled
+[2016.02.14-21.06.27:540][  0]SourceControl: Info Source control is disabled
+[2016.02.14-21.06.27:553][  0]SourceControl: Info Source control is disabled
+[2016.02.14-21.06.27:728][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.14-21.06.27:818][  0]LogObj: 28415 objects as part of root set at end of initial load.
+[2016.02.14-21.06.27:818][  0]LogUObjectAllocator: 6063640 out of 0 bytes used by permanent object pool.
+[2016.02.14-21.06.27:867][  0]LogEngine: Initializing Engine...
+[2016.02.14-21.06.27:869][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.02.14-21.06.27:870][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.14-21.06.27:974][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.14-21.06.27:986][  0]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.14-21.06.27:994][  0]LogInit: FAudioDevice initialized.
+[2016.02.14-21.06.28:012][  0]LogDerivedDataCache: Saved boot cache 0.02s 43MB C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.14-21.06.28:015][  0]LogInit: Texture streaming: Enabled
+[2016.02.14-21.06.28:021][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.14-21.06.28:021][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.14-21.06.28:021][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8d5f2d8b4e520712a8f1e688fed765ab|99f216c1865e471987722078da7bde5f|50f43dcd-c54f-4aa6-a5c1-e948023fc359
+[2016.02.14-21.06.28:021][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.14-21.06.28:048][  0]LogInit: Transaction tracking system initialized
+[2016.02.14-21.06.28:090][  0]BlueprintLog: New page: Editor Load
+[2016.02.14-21.06.28:169][  0]LocalizationService: Info Localization service is disabled
+[2016.02.14-21.06.28:243][  0]LogConsoleResponse:Display: 
+[2016.02.14-21.06.28:342][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.14-21.06.28:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/' took 0.01s
+[2016.02.14-21.06.28:418][  0]SourceControl: Info Source control is disabled
+[2016.02.14-21.06.28:418][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.14-21.06.28:419][  0]LightingResults: New page: Lighting Build
+[2016.02.14-21.06.28:422][  0]MapCheck: New page: Map Check
+[2016.02.14-21.06.28:422][  0]LightingResults: New page: Lighting Build
+[2016.02.14-21.06.28:436][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017287F0A480
+[2016.02.14-21.06.28:665][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.14-21.06.28:666][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.14-21.06.28:670][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.39] Compile of FlyingPawn successful, but with 2 Warning(s) [in 15 ms]
+[2016.02.14-21.06.28:670][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.39] Compile of FlyingPawn successful, but with 3 Warning(s) [in 0 ms]
+[2016.02.14-21.06.28:670][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.39] Compile of FlyingPawn successful, but with 4 Warning(s) [in 0 ms]
+[2016.02.14-21.06.28:687][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.14-21.06.28:687][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.14-21.06.28:691][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.41] Compile of FlyingPawn successful, but with 2 Warning(s) [in 15 ms]
+[2016.02.14-21.06.28:692][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.41] Compile of FlyingPawn successful, but with 3 Warning(s) [in 0 ms]
+[2016.02.14-21.06.28:692][  0]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0005.41] Compile of FlyingPawn successful, but with 4 Warning(s) [in 0 ms]
+[2016.02.14-21.06.28:898][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.14-21.06.28:906][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.14-21.06.28:906][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.14-21.06.28:981][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.722ms to complete.
+[2016.02.14-21.06.28:981][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.563
+[2016.02.14-21.06.29:088][  0]LogCollectionManager: Loaded 0 collections in 0.002302 seconds
+[2016.02.14-21.06.29:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Collections/' took 0.01s
+[2016.02.14-21.06.29:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Developers/Niclas/Collections/' took 0.01s
+[2016.02.14-21.06.29:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Collections/' took 0.01s
+[2016.02.14-21.06.29:129][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1872 classes and 335 folders.
+[2016.02.14-21.06.29:133][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.14-21.06.29:140][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.02.14-21.06.29:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.02.14-21.06.29:189][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.02.14-21.06.29:210][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.14-21.06.29:214][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.14-21.06.29:236][  0]LogLoad: Full Startup: 5.95 seconds (BP compile: 0.09 seconds)
+[2016.02.14-21.06.29:293][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.14-21.06.29:395][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.02.14-21.06.29:705][  3]LogAssetRegistry: Asset discovery search completed in 2.3453 seconds
+[2016.02.14-21.06.29:705][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.14-21.06.29:705][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.02.14-21.06.32:541][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.06.32:541][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.14-21.06.32:541][309]PIE: New page: PIE session: Minimal_Default (Feb 14, 2016, 11:06:32 PM)
+[2016.02.14-21.06.32:541][309]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.14-21.06.32:550][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009066s)
+[2016.02.14-21.06.32:551][309]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.14-21.06.32:551][309]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2016.02.14-21.06.32:551][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009908s)
+[2016.02.14-21.06.32:575][309]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.14-21.06.32:581][309]LogInit: FAudioDevice initialized.
+[2016.02.14-21.06.32:646][309]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.14-21.06.32:653][309]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.14-21.06.32:653][309]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.14-22.06.32
+[2016.02.14-21.06.32:653][309]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.06.32:654][309]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.06.32:656][309]LogWorld: Bringing up level for play took: 0.007737
+[2016.02.14-21.06.32:657][309]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.585
+[2016.02.14-21.06.32:657][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.06.34:328][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.06.34:358][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.06.34:368][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172EBC44900
+[2016.02.14-21.06.35:740][661]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.14-21.06.36:190][661]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 107 classes and 0 folders.
+[2016.02.14-21.07.24:057][317]BlueprintLog: New page: Compile SFHUD
+[2016.02.14-21.07.24:121][317]BlueprintEditorCompileResults: Info [0060.84] Compile of SFHUD successful! [in 63 ms]
+[2016.02.14-21.07.24:640][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/UI/SFHUD.uasset" SILENT=true
+[2016.02.14-21.07.24:664][368]LogSavePackage: Save=17.848030ms
+[2016.02.14-21.07.24:664][368]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD596FB3A741524D74AB426DBD6C478C8A.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/UI/SFHUD.uasset'
+[2016.02.14-21.07.24:666][368]LogSavePackage: Total save time: 24.671931ms
+[2016.02.14-21.07.24:666][368]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/UI/SFHUD.uasset
+[2016.02.14-21.07.26:627][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.07.26:628][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.14-21.07.26:628][578]PIE: New page: PIE session: Minimal_Default (Feb 14, 2016, 11:07:26 PM)
+[2016.02.14-21.07.26:628][578]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.14-21.07.26:636][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008615s)
+[2016.02.14-21.07.26:637][578]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.14-21.07.26:637][578]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2016.02.14-21.07.26:637][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009495s)
+[2016.02.14-21.07.26:666][578]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.14-21.07.26:671][578]LogInit: FAudioDevice initialized.
+[2016.02.14-21.07.26:705][578]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.14-21.07.26:711][578]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.14-21.07.26:711][578]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.14-22.07.26
+[2016.02.14-21.07.26:711][578]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.07.26:711][578]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.07.26:713][578]LogWorld: Bringing up level for play took: 0.007796
+[2016.02.14-21.07.26:715][578]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.528
+[2016.02.14-21.07.26:715][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.08.09:430][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.08.09:464][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.08.09:482][698]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172FB5CB600
+[2016.02.14-21.11.19:073][927]Recompiling StarFox...
+[2016.02.14-21.11.19:073][927]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 3327 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.14-21.11.19:075][927]Warning: Starting HotReload took  0.0s.
+[2016.02.14-21.11.20:090][ 26]CompilerResultsLog: New page: Compilation - Feb 14, 2016, 11:11:20 PM
+[2016.02.14-21.11.20:090][ 26]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.14-21.11.20:090][ 26]CompilerResultsLog: Info Target is up to date.
+[2016.02.14-21.11.20:090][ 26]LogMainFrame: MainFrame: Module compiling took 1.021 seconds
+[2016.02.14-21.11.21:677][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.11.21:677][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.14-21.11.21:677][214]PIE: New page: PIE session: Minimal_Default (Feb 14, 2016, 11:11:21 PM)
+[2016.02.14-21.11.21:677][214]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.14-21.11.21:687][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009736s)
+[2016.02.14-21.11.21:687][214]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.14-21.11.21:688][214]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2016.02.14-21.11.21:688][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010594s)
+[2016.02.14-21.11.21:719][214]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.14-21.11.21:725][214]LogInit: FAudioDevice initialized.
+[2016.02.14-21.11.21:755][214]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.14-21.11.21:762][214]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.14-21.11.21:762][214]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.14-22.11.21
+[2016.02.14-21.11.21:762][214]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.11.21:762][214]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.14-21.11.21:764][214]LogWorld: Bringing up level for play took: 0.007814
+[2016.02.14-21.11.21:765][214]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.523
+[2016.02.14-21.11.21:766][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.11.23:463][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.11.23:497][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.14-21.11.23:516][414]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172FB540CC0
+[2016.02.14-21.11.27:448][805]LogSavePackage: Save=120.674271ms
+[2016.02.14-21.11.27:448][805]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default1B12075F46203E46C818418D8554503B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.14-21.11.27:449][805]LogSavePackage: Total save time: 128.917933ms
+[2016.02.14-21.11.27:449][805]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.02.15-00.03.46:920][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-00.03.46:920][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-00.03.46:920][930]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 2:03:46 AM)
+[2016.02.15-00.03.46:920][930]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-00.03.46:933][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012586s)
+[2016.02.15-00.03.46:936][930]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-00.03.46:936][930]LogPlayLevel: PIE: World Init took: (0.003618s)
+[2016.02.15-00.03.46:936][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016393s)
+[2016.02.15-00.03.46:958][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172C6837EC0
+[2016.02.15-00.03.46:960][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172C6834180
+[2016.02.15-00.03.46:973][930]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-00.03.46:980][930]LogInit: FAudioDevice initialized.
+[2016.02.15-00.03.47:011][930]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-00.03.47:018][930]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-00.03.47:018][930]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-01.03.47
+[2016.02.15-00.03.47:018][930]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-00.03.47:018][930]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-00.03.47:020][930]LogWorld: Bringing up level for play took: 0.008113
+[2016.02.15-00.03.47:022][930]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.221
+[2016.02.15-00.03.47:022][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-00.04.17:497][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-00.04.17:531][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-00.04.17:549][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172CCDC6340
+[2016.02.15-00.04.32:725][381]LogSavePackage: Save=117.034798ms
+[2016.02.15-00.04.32:725][381]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default0EEB977B4EAB47497852BF948AFE57C3.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.15-00.04.32:726][381]LogSavePackage: Total save time: 126.328815ms
+[2016.02.15-00.04.32:726][381]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.02.15-00.04.33:802][488]LogSavePackage: Save=113.956970ms
+[2016.02.15-00.04.33:802][488]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_DefaultA5DE70B44B1C7F9E24F436A0FE951502.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.15-00.04.33:804][488]LogSavePackage: Total save time: 120.633222ms
+[2016.02.15-00.04.33:804][488]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.02.15-00.04.34:452][544]LogSavePackage: Save=114.418213ms
+[2016.02.15-00.04.34:452][544]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_DefaultBE95004E4F507D342DD39BAB9C552C43.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.15-00.04.34:454][544]LogSavePackage: Total save time: 121.059328ms
+[2016.02.15-00.04.34:454][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.02.15-00.04.35:036][591]LogSavePackage: Save=113.737274ms
+[2016.02.15-00.04.35:036][591]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default166430F54B83D5BE94B9D89566FC6B09.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.15-00.04.35:038][591]LogSavePackage: Total save time: 120.332319ms
+[2016.02.15-00.04.35:038][591]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.02.15-10.49.07:354][101]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:198248).
+[2016.02.15-10.49.14:416][578]BlueprintLog: New page: Compile BulletBP
+[2016.02.15-10.49.14:473][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.49.14:491][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172C4D88F40
+[2016.02.15-10.49.14:497][578]BlueprintEditorCompileResults: Info [9371.21] Compile of BulletBP successful! [in 80 ms]
+[2016.02.15-10.49.15:034][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BulletBP" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset" SILENT=true
+[2016.02.15-10.49.15:057][613]LogSavePackage: Save=16.404348ms
+[2016.02.15-10.49.15:057][613]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/BulletBPDAFEAE13451CB213DF2C4D9CFA5AB44F.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset'
+[2016.02.15-10.49.15:060][613]LogSavePackage: Total save time: 24.758745ms
+[2016.02.15-10.49.15:060][613]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset
+[2016.02.15-10.49.17:649][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.49.17:649][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.49.17:650][837]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:49:17 PM)
+[2016.02.15-10.49.17:650][837]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.49.17:659][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009788s)
+[2016.02.15-10.49.17:661][837]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.49.17:661][837]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2016.02.15-10.49.17:661][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011484s)
+[2016.02.15-10.49.17:661][837]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.49.17:678][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172F89FDC60
+[2016.02.15-10.49.17:680][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172F89FD760
+[2016.02.15-10.49.17:693][837]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.49.17:699][837]LogInit: FAudioDevice initialized.
+[2016.02.15-10.49.17:735][837]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.49.17:741][837]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.49.17:741][837]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.49.17
+[2016.02.15-10.49.17:741][837]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.49.17:742][837]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.49.17:743][837]LogWorld: Bringing up level for play took: 0.007819
+[2016.02.15-10.49.17:745][837]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.503
+[2016.02.15-10.49.17:745][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.49.30:427][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.49.30:456][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.49.30:473][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172CFF45260
+[2016.02.15-10.49.45:633][433]BlueprintLog: New page: Compile BulletBP
+[2016.02.15-10.49.45:687][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.49.45:708][433]BlueprintEditorCompileResults: Info [9402.43] Compile of BulletBP successful! [in 74 ms]
+[2016.02.15-10.50.00:957][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.50.03:581][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.02.15-10.50.23:112][692]BlueprintLog: New page: Compile BulletBP
+[2016.02.15-10.50.23:167][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.02.15-10.50.23:189][692]BlueprintEditorCompileResults: Info [9439.91] Compile of BulletBP successful! [in 76 ms]
+[2016.02.15-10.50.24:109][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BulletBP" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset" SILENT=true
+[2016.02.15-10.50.24:132][753]LogSavePackage: Save=16.760767ms
+[2016.02.15-10.50.24:132][753]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/BulletBP5DB61F834523FE50B85FCAB9170D066B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset'
+[2016.02.15-10.50.24:135][753]LogSavePackage: Total save time: 24.732169ms
+[2016.02.15-10.50.24:135][753]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/BulletBP.uasset
+[2016.02.15-10.50.27:069][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.50.27:069][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.50.27:069][998]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:50:27 PM)
+[2016.02.15-10.50.27:069][998]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.50.27:077][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008178s)
+[2016.02.15-10.50.27:078][998]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.50.27:078][998]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2016.02.15-10.50.27:078][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008917s)
+[2016.02.15-10.50.27:078][998]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.50.27:105][998]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.50.27:111][998]LogInit: FAudioDevice initialized.
+[2016.02.15-10.50.27:145][998]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.50.27:152][998]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.50.27:152][998]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.50.27
+[2016.02.15-10.50.27:152][998]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.50.27:152][998]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.50.27:154][998]LogWorld: Bringing up level for play took: 0.008028
+[2016.02.15-10.50.27:155][998]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.087
+[2016.02.15-10.50.27:155][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.50.48:800][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.50.48:832][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.50.48:850][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172CCDC5DA0
+[2016.02.15-10.52.29:670][124]LogEditorViewport: Clicking on Actor (context menu): PawnWithCamera (PawnWithCamera2)
+[2016.02.15-10.52.29:744][124]LogEditorViewport: Clicking on Actor (LMB): PawnWithCamera (PawnWithCamera2)
+[2016.02.15-10.52.46:844][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.52.46:844][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.52.46:844][369]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:52:46 PM)
+[2016.02.15-10.52.46:844][369]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.52.46:855][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010164s)
+[2016.02.15-10.52.46:855][369]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.52.46:855][369]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2016.02.15-10.52.46:856][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011256s)
+[2016.02.15-10.52.46:856][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.52.46:913][369]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.52.46:919][369]LogInit: FAudioDevice initialized.
+[2016.02.15-10.52.46:953][369]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.52.46:960][369]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.52.46:960][369]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.52.46
+[2016.02.15-10.52.46:960][369]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.52.46:960][369]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.52.46:962][369]LogWorld: Bringing up level for play took: 0.007955
+[2016.02.15-10.52.46:963][369]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.279
+[2016.02.15-10.52.46:964][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.52.58:366][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.52.58:435][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.52.58:453][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172C46D7880
+[2016.02.15-10.53.41:606][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.53.41:606][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.53.41:606][616]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:53:41 PM)
+[2016.02.15-10.53.41:606][616]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.53.41:616][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009853s)
+[2016.02.15-10.53.41:616][616]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.53.41:617][616]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2016.02.15-10.53.41:617][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010813s)
+[2016.02.15-10.53.41:617][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.53.41:617][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.15-10.53.41:661][616]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.53.41:668][616]LogInit: FAudioDevice initialized.
+[2016.02.15-10.53.41:699][616]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.53.41:706][616]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.53.41:706][616]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.53.41
+[2016.02.15-10.53.41:706][616]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.53.41:707][616]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.53.41:709][616]LogWorld: Bringing up level for play took: 0.008639
+[2016.02.15-10.53.41:714][616]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.472
+[2016.02.15-10.53.41:714][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.53.50:177][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.53.50:213][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.53.50:231][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172C3B1A2A0
+[2016.02.15-10.53.55:117][116]LogEditorActor: Deleted Actor: AIEnemy_C
+[2016.02.15-10.53.55:117][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.15-10.53.55:135][116]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.02.15-10.53.58:064][433]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-10.54.43:819][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.15-10.54.43:820][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.15-10.54.43:826][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.54] Compile of FlyingPawn successful, but with 2 Warning(s) [in 38 ms]
+[2016.02.15-10.54.43:826][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.54] Compile of FlyingPawn successful, but with 3 Warning(s) [in 0 ms]
+[2016.02.15-10.54.43:826][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.54] Compile of FlyingPawn successful, but with 4 Warning(s) [in 0 ms]
+[2016.02.15-10.54.43:876][858]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-10.54.43:876][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.59] Compile of FlyingPawn successful, but with 5 Warning(s) [in 49 ms]
+[2016.02.15-10.54.43:876][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.15-10.54.43:876][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.54.43:897][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.61] Compile of FlyingPawn successful, but with 6 Warning(s) [in 20 ms]
+[2016.02.15-10.54.43:899][858]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-10.54.43:903][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.62] Compile of FlyingPawn successful, but with 7 Warning(s) [in 5 ms]
+[2016.02.15-10.54.43:903][858]LogBlueprint:Warning: [compiler FlyingPawn] Warning [9700.62] Compile of FlyingPawn successful, but with 8 Warning(s) [in 0 ms]
+[2016.02.15-10.54.43:903][858]LogMetaData: Removing '/Game/Blueprint/FlyingPawn.FlyingPawn_C' ref from Metadata '/Game/FlyingBP/Blueprints/FlyingPawn.PackageMetaData'
+[2016.02.15-10.54.43:903][858]LogMetaData: Removing '/Game/Blueprint/FlyingPawn.SKEL_FlyingPawn_C' ref from Metadata '/Game/FlyingBP/Blueprints/FlyingPawn.PackageMetaData'
+[2016.02.15-10.54.43:947][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/FlyingPawn" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset" SILENT=true
+[2016.02.15-10.54.44:088][858]LogSavePackage: Save=140.237946ms
+[2016.02.15-10.54.44:088][858]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/FlyingPawnDC025FAC4642E535A26E1C94E1936732.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset'
+[2016.02.15-10.54.44:091][858]LogSavePackage: Total save time: 143.096965ms
+[2016.02.15-10.54.44:091][858]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset
+[2016.02.15-10.54.44:099][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyingBP/Blueprints/FlyingPawn" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/FlyingBP/Blueprints/FlyingPawn.uasset" SILENT=true
+[2016.02.15-10.54.44:111][858]LogSavePackage: Save=2.617172ms
+[2016.02.15-10.54.44:111][858]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/FlyingPawnE265F0EA4DDB916B9B8821B4017D411C.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2016.02.15-10.54.44:113][858]LogSavePackage: Total save time: 13.142258ms
+[2016.02.15-10.54.44:113][858]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/FlyingBP/Blueprints/FlyingPawn.uasset
+[2016.02.15-10.54.47:974][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.15-10.55.26:263][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.55.26:263][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.55.26:263][910]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:55:26 PM)
+[2016.02.15-10.55.26:263][910]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.55.26:272][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009635s)
+[2016.02.15-10.55.26:273][910]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.55.26:273][910]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.02.15-10.55.26:273][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010505s)
+[2016.02.15-10.55.26:273][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.55.26:273][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.15-10.55.26:310][910]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.55.26:318][910]LogInit: FAudioDevice initialized.
+[2016.02.15-10.55.26:349][910]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.55.26:356][910]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.55.26:356][910]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.55.26
+[2016.02.15-10.55.26:356][910]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.55.26:357][910]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.55.26:360][910]LogWorld: Bringing up level for play took: 0.009773
+[2016.02.15-10.55.26:361][910]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.881
+[2016.02.15-10.55.26:361][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.55.40:891][646]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.55.40:937][646]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.55.40:956][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172E2548540
+[2016.02.15-10.55.53:517][907]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-10.56.22:661][ 47]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn6)
+[2016.02.15-10.56.28:544][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.56.28:544][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-10.56.28:544][701]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 12:56:28 PM)
+[2016.02.15-10.56.28:544][701]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-10.56.28:554][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009467s)
+[2016.02.15-10.56.28:554][701]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-10.56.28:555][701]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2016.02.15-10.56.28:555][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010370s)
+[2016.02.15-10.56.28:555][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.56.28:585][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000172D09B0360
+[2016.02.15-10.56.28:585][701]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-10.56.28:590][701]LogInit: FAudioDevice initialized.
+[2016.02.15-10.56.28:623][701]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-10.56.28:630][701]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-10.56.28:631][701]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-11.56.28
+[2016.02.15-10.56.28:631][701]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.56.28:631][701]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-10.56.28:634][701]LogWorld: Bringing up level for play took: 0.009857
+[2016.02.15-10.56.28:635][701]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.607
+[2016.02.15-10.56.28:636][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.57.05:472][118]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.57.05:510][118]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-10.57.05:528][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001729CFE7CE0
+[2016.02.15-10.57.35:064][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-10.57.35:223][522]LogSavePackage: Save=123.095665ms
+[2016.02.15-10.57.35:223][522]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default_Auto1A1740CB949C90AEECEC7AC957BD8A5BD.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.02.15-10.57.35:226][522]LogSavePackage: Total save time: 135.436501ms
+[2016.02.15-10.57.35:226][522]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.02.15-10.57.35:228][522]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.164
+[2016.02.15-10.57.35:228][522]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2016.02.15-11.00.27:704][802]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.00.38:863][560]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.00.38:863][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-11.01.22:288][704]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'FlyingPawn', cached variable property's owner is '/Game/Blueprint/FlyingPawn.SKEL_FlyingPawn_C'
+[2016.02.15-11.02.00:335][459]BlueprintLog: New page: Compile FlyingPawn
+[2016.02.15-11.02.00:371][459]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.15-11.02.00:371][459]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.15-11.02.00:378][459]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.00:430][459]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.00:434][459]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0137.15] Compile of FlyingPawn successful, but with 2 Warning(s) [in 99 ms]
+[2016.02.15-11.02.00:434][459]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.15-11.02.00:434][459]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.15-11.02.00:434][459]BlueprintEditorCompileResults:Warning: Warning [0137.15] Compile of FlyingPawn successful, but with 2 Warning(s) [in 99 ms]
+[2016.02.15-11.02.19:704][855]BlueprintLog: New page: Compile FlyingPawn
+[2016.02.15-11.02.19:739][855]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.15-11.02.19:739][855]LogBlueprint:Warning: [compiler FlyingPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.15-11.02.19:746][855]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.19:797][855]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.19:801][855]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0156.52] Compile of FlyingPawn successful, but with 2 Warning(s) [in 97 ms]
+[2016.02.15-11.02.19:801][855]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.02.15-11.02.19:801][855]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp 
+[2016.02.15-11.02.19:801][855]BlueprintEditorCompileResults:Warning: Warning [0156.52] Compile of FlyingPawn successful, but with 2 Warning(s) [in 97 ms]
+[2016.02.15-11.02.24:279][152]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.25:236][209]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.26:285][274]BlueprintLog: New page: Compile FlyingPawn
+[2016.02.15-11.02.26:325][274]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.26:377][274]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.02.26:380][274]BlueprintEditorCompileResults: Info [0163.10] Compile of FlyingPawn successful! [in 95 ms]
+[2016.02.15-11.02.27:347][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/FlyingPawn" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset" SILENT=true
+[2016.02.15-11.02.27:462][334]LogSavePackage: Save=107.022629ms
+[2016.02.15-11.02.27:462][334]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/FlyingPawn9CD58E724FF1AAFE9433ECAA7A0472F8.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset'
+[2016.02.15-11.02.27:464][334]LogSavePackage: Total save time: 115.934242ms
+[2016.02.15-11.02.27:464][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset
+[2016.02.15-11.02.30:379][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.30:379][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-11.02.30:379][550]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 1:02:30 PM)
+[2016.02.15-11.02.30:379][550]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-11.02.30:388][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009618s)
+[2016.02.15-11.02.30:389][550]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-11.02.30:389][550]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2016.02.15-11.02.30:389][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010514s)
+[2016.02.15-11.02.30:446][550]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-11.02.30:452][550]LogInit: FAudioDevice initialized.
+[2016.02.15-11.02.30:484][550]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-11.02.30:492][550]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-11.02.30:492][550]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-12.02.30
+[2016.02.15-11.02.30:492][550]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.02.30:492][550]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.02.30:495][550]LogWorld: Bringing up level for play took: 0.009384
+[2016.02.15-11.02.30:496][550]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.746
+[2016.02.15-11.02.30:496][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.39:960][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.40:038][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.40:057][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001730F1696C0
+[2016.02.15-11.02.41:465][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.41:465][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-11.02.41:465][780]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 1:02:41 PM)
+[2016.02.15-11.02.41:465][780]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-11.02.41:476][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010941s)
+[2016.02.15-11.02.41:477][780]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-11.02.41:477][780]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2016.02.15-11.02.41:478][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012767s)
+[2016.02.15-11.02.41:533][780]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-11.02.41:539][780]LogInit: FAudioDevice initialized.
+[2016.02.15-11.02.41:573][780]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-11.02.41:580][780]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-11.02.41:580][780]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-12.02.41
+[2016.02.15-11.02.41:580][780]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.02.41:580][780]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.02.41:583][780]LogWorld: Bringing up level for play took: 0.009671
+[2016.02.15-11.02.41:585][780]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.342
+[2016.02.15-11.02.41:585][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.50:813][884]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.50:882][884]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.02.50:919][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001729CF5B880
+[2016.02.15-11.03.26:527][191]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'FlyingPawn', cached variable property's owner is '/Game/Blueprint/FlyingPawn.SKEL_FlyingPawn_C'
+[2016.02.15-11.04.13:553][508]BlueprintLog: New page: Compile FlyingPawn
+[2016.02.15-11.04.13:587][508]LogBlueprint:Error: [compiler FlyingPawn] Error The type of  Object  is undetermined.  Connect something to  Cast To BulletBP  to imply a specific type.
+[2016.02.15-11.04.13:588][508]LogBlueprint:Error: [compiler FlyingPawn] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-11.04.13:659][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-11.04.13:685][508]LogBlueprint:Warning: [compiler FlyingPawn] Warning [0270.40] Compile of FlyingPawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2016.02.15-11.04.13:685][508]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To BulletBP  to imply a specific type.
+[2016.02.15-11.04.13:685][508]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-11.04.13:685][508]BlueprintEditorCompileResults:Warning: Warning [0270.40] Compile of FlyingPawn failed. 2 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2016.02.15-11.04.52:306][202]BlueprintLog: New page: Compile FlyingPawn
+[2016.02.15-11.04.52:345][202]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.04.52:397][202]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.02.15-11.04.52:400][202]BlueprintEditorCompileResults: Info [0309.12] Compile of FlyingPawn successful! [in 94 ms]
+[2016.02.15-11.04.53:611][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/FlyingPawn" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset" SILENT=true
+[2016.02.15-11.04.53:724][286]LogSavePackage: Save=106.817406ms
+[2016.02.15-11.04.53:724][286]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/FlyingPawnE20A8B194A32541E454B6DBAE0B61B07.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset'
+[2016.02.15-11.04.53:728][286]LogSavePackage: Total save time: 115.562472ms
+[2016.02.15-11.04.53:728][286]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Content/Blueprint/FlyingPawn.uasset
+[2016.02.15-11.04.56:055][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.04.56:056][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.15-11.04.56:056][461]PIE: New page: PIE session: Minimal_Default (Feb 15, 2016, 1:04:56 PM)
+[2016.02.15-11.04.56:056][461]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.02.15-11.04.56:065][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009193s)
+[2016.02.15-11.04.56:065][461]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.15-11.04.56:066][461]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2016.02.15-11.04.56:066][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010001s)
+[2016.02.15-11.04.56:122][461]LogInit: XAudio2 using '1 - BenQ GW2750H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.15-11.04.56:128][461]LogInit: FAudioDevice initialized.
+[2016.02.15-11.04.56:162][461]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.15-11.04.56:169][461]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.15-11.04.56:169][461]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.02.15-12.04.56
+[2016.02.15-11.04.56:169][461]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.04.56:169][461]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.15-11.04.56:172][461]LogWorld: Bringing up level for play took: 0.009403
+[2016.02.15-11.04.56:173][461]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.931
+[2016.02.15-11.04.56:173][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.05.43:053][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.05.43:130][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.02.15-11.05.43:150][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001729CF58E00
+[2016.02.15-11.08.41:866][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-11.08.42:035][339]LogSavePackage: Save=123.022430ms
+[2016.02.15-11.08.42:036][339]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default_Auto26E16FEDB4F1C2F56EBFC9681E7D57B41.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.02.15-11.08.42:038][339]LogSavePackage: Total save time: 134.425126ms
+[2016.02.15-11.08.42:038][339]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2016.02.15-11.08.42:040][339]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.174
+[2016.02.15-11.08.42:040][339]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2016.02.15-11.08.42:046][339]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/FlyingPawn] ([1] browsable assets)...
+[2016.02.15-11.08.42:046][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/FlyingPawn]
+[2016.02.15-11.08.42:160][339]LogSavePackage: Save=104.057312ms
+[2016.02.15-11.08.42:160][339]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/FlyingPawn_Auto2D0924DE04F47ED20DB28A3B24959830C.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/Blueprint/FlyingPawn_Auto2.uasset'
+[2016.02.15-11.08.42:162][339]LogSavePackage: Total save time: 113.923013ms
+[2016.02.15-11.08.42:162][339]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/Blueprint/FlyingPawn_Auto2.uasset
+[2016.02.15-11.08.42:162][339]LogFileHelpers: Auto-saving content packages took 0.120
+[2016.02.15-11.09.16:166][788]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.09.18:329][945]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.09.58:898][480]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.09.59:393][516]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.10.00:028][562]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.10.00:384][588]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.18.42:930][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.15-11.18.42:973][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.043
+[2016.02.15-11.18.42:981][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SFHUD] ([1] browsable assets)...
+[2016.02.15-11.18.42:981][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SFHUD]
+[2016.02.15-11.18.42:981][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.02.15-11.18.43:038][280]LogSavePackage: Save=26.413267ms
+[2016.02.15-11.18.43:038][280]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD_Auto317A9CFD44900D435977C429F152848FA.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto3.uasset'
+[2016.02.15-11.18.43:040][280]LogSavePackage: Total save time: 44.041600ms
+[2016.02.15-11.18.43:040][280]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto3.uasset
+[2016.02.15-11.18.43:040][280]LogFileHelpers: Auto-saving content packages took 0.064
+[2016.02.15-11.28.23:130][905]Recompiling StarFox...
+[2016.02.15-11.28.23:130][905]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 8791 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.28.23:132][905]Warning: Starting HotReload took  0.1s.
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:28:33 PM
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.28.33:763][699]CompilerResultsLog:Error: Error C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Source/StarFox/PawnWithCamera.h(97)  : Unknown variable specifier 'BlueprintPure'
+[2016.02.15-11.28.33:763][699]CompilerResultsLog:Error: Error Error: Failed to generate code for StarFoxEditor - error code: OtherCompilationError (5) 
+[2016.02.15-11.28.33:763][699]CompilerResultsLog: Info UnrealHeaderTool failed for target 'StarFoxEditor' (platform: Win64, module info: C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest).
+[2016.02.15-11.28.33:763][699]LogMainFrame: MainFrame: Module compiling took 10.637 seconds
+[2016.02.15-11.28.33:763][699]Warning: HotReload failed, recompile failed
+[2016.02.15-11.29.03:093][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.025
+[2016.02.15-11.29.03:098][124]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SFHUD] ([1] browsable assets)...
+[2016.02.15-11.29.03:098][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SFHUD]
+[2016.02.15-11.29.03:098][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.02.15-11.29.03:153][124]LogSavePackage: Save=23.742056ms
+[2016.02.15-11.29.03:153][124]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD_Auto4C65F10B649C159ADFCC778B9A3C5FEB4.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto4.uasset'
+[2016.02.15-11.29.03:155][124]LogSavePackage: Total save time: 52.083876ms
+[2016.02.15-11.29.03:155][124]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto4.uasset
+[2016.02.15-11.29.03:156][124]LogFileHelpers: Auto-saving content packages took 0.061
+[2016.02.15-11.29.59:564][457]Recompiling StarFox...
+[2016.02.15-11.29.59:564][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 2436 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.29.59:566][457]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.30.12:589][348]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:30:12 PM
+[2016.02.15-11.30.12:589][348]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.30.12:590][348]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.30.12:590][348]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.30.12:590][348]CompilerResultsLog:Error: Error C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Source/StarFox/PawnWithCamera.h(97)  : Unknown variable specifier 'BlueprintPure'
+[2016.02.15-11.30.12:590][348]CompilerResultsLog:Error: Error Error: Failed to generate code for StarFoxEditor - error code: OtherCompilationError (5) 
+[2016.02.15-11.30.12:590][348]CompilerResultsLog: Info UnrealHeaderTool failed for target 'StarFoxEditor' (platform: Win64, module info: C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest).
+[2016.02.15-11.30.12:590][348]LogMainFrame: MainFrame: Module compiling took 13.030 seconds
+[2016.02.15-11.30.12:590][348]Warning: HotReload failed, recompile failed
+[2016.02.15-11.32.13:636][576]Recompiling StarFox...
+[2016.02.15-11.32.13:636][576]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 4257 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.32.13:639][576]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:32:28 PM
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 8,4921089 seconds
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info StarFoxGameMode.cpp
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info Bullet.cpp
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info ring.cpp
+[2016.02.15-11.32.28:223][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.32.28:223][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.32.28:223][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\ring.h(28)  : error C2143: syntax error : missing ';' before '*'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\ring.h(28)  : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\ring.cpp(48)  : error C2065: 'pwc' : undeclared identifier
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\ring.cpp(48)  : error C2227: left of '->TakeDamage' must point to class/struct/union/generic type
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info         type is 'unknown-type'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.32.28:224][707]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Binaries\Win64\UE4Editor-StarFox-4257.dll
+[2016.02.15-11.32.28:224][707]CompilerResultsLog: Info Total build time: 14,49 seconds
+[2016.02.15-11.32.28:224][707]LogMainFrame: MainFrame: Module compiling took 14.591 seconds
+[2016.02.15-11.32.28:224][707]Warning: HotReload failed, recompile failed
+[2016.02.15-11.36.00:518][614]Recompiling StarFox...
+[2016.02.15-11.36.00:518][614]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 9933 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.36.00:520][614]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.36.17:055][770]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:36:17 PM
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 9,0179519 seconds
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info ring.cpp
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\ring.cpp(48)  : error C2248: 'APawnWithCamera::TakeDamage' : cannot access protected member declared in class 'APawnWithCamera'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : see declaration of 'APawnWithCamera::TakeDamage'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info          c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(10)  : see declaration of 'APawnWithCamera'
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Binaries\Win64\UE4Editor-StarFox-9933.dll
+[2016.02.15-11.36.17:056][770]CompilerResultsLog: Info Total build time: 16,34 seconds
+[2016.02.15-11.36.17:056][770]LogMainFrame: MainFrame: Module compiling took 16.542 seconds
+[2016.02.15-11.36.17:056][770]Warning: HotReload failed, recompile failed
+[2016.02.15-11.38.40:578][  8]Recompiling StarFox...
+[2016.02.15-11.38.40:578][  8]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 7643 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.38.40:580][  8]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.38.43:692][247]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:38:43 PM
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info ring.cpp
+[2016.02.15-11.38.43:693][247]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member functionc:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67) : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info 
+[2016.02.15-11.38.43:693][247]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hiddenc:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info 
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'        C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216) : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info 
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'        C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31) : see declaration of 'APawn'
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info 
+[2016.02.15-11.38.43:693][247]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\ring.cpp(48)  : error C2248: 'APawnWithCamera::TakeDamage' : cannot access protected member declared in class 'APawnWithCamera'
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info          c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(67)  : see declaration of 'APawnWithCamera::TakeDamage'
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info          c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(10)  : see declaration of 'APawnWithCamera'
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Binaries\Win64\UE4Editor-StarFox-7643.dll
+[2016.02.15-11.38.43:693][247]CompilerResultsLog: Info Total build time: 3,02 seconds
+[2016.02.15-11.38.43:693][247]LogMainFrame: MainFrame: Module compiling took 3.118 seconds
+[2016.02.15-11.38.43:693][247]Warning: HotReload failed, recompile failed
+[2016.02.15-11.39.55:320][299]Recompiling StarFox...
+[2016.02.15-11.39.55:320][299]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 6047 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.39.55:322][299]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:40:08 PM
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 8,104116 seconds
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info ring.cpp
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.15-11.40.08:070][285]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.40.08:070][285]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member functionc:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info 
+[2016.02.15-11.40.08:070][285]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden        C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216) : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info 
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'        C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31) : see declaration of 'APawn'
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info 
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.40.08:070][285]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.40.08:070][285]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.40.08:070][285]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.40.08:071][285]CompilerResultsLog: Info [4/4] Link UE4Editor-StarFox-6047.dll
+[2016.02.15-11.40.08:071][285]CompilerResultsLog: Info    Creating library C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-6047.lib and object C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-6047.exp
+[2016.02.15-11.40.08:071][285]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.40.08:071][285]CompilerResultsLog: Info Total build time: 12,66 seconds
+[2016.02.15-11.40.08:071][285]LogMainFrame: MainFrame: Module compiling took 12.755 seconds
+[2016.02.15-11.40.08:111][285]LogClass: Could not find existing class PawnWithCamera in package /Script/StarFox for HotReload, assuming new class
+[2016.02.15-11.40.08:112][285]LogClass: Could not find existing class ring in package /Script/StarFox for HotReload, assuming new class
+[2016.02.15-11.40.08:112][285]LogClass: Function OnBeginOverlap is new.
+[2016.02.15-11.40.08:119][285]LogHotReload: Re-instancing PawnWithCamera after hot-reload.
+[2016.02.15-11.40.08:121][285]LogUObjectGlobals:Warning: Guid is in use by SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.Root and SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.Root, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:121][285]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.UFO and StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.UFO, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:121][285]LogUObjectGlobals:Warning: Guid is in use by SphereComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.RootComponent and SphereComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.RootComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:121][285]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.CameraSpringArm and SpringArmComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.CameraSpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:121][285]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.GameCamera and CameraComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.GameCamera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:285][285]LogHotReload: Re-instancing ring after hot-reload.
+[2016.02.15-11.40.08:346][285]LogUObjectGlobals:Warning: Guid is in use by SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_0.Root and SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_2.Root, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:346][285]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_0.Ring and StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_2.Ring, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:346][285]LogUObjectGlobals:Warning: Guid is in use by BoxComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_0.Trigger and BoxComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_2.Trigger, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:347][285]LogUObjectGlobals:Warning: Guid is in use by SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_1.Root and SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_3.Root, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:347][285]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_1.Ring and StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_3.Ring, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:347][285]LogUObjectGlobals:Warning: Guid is in use by BoxComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_1.Trigger and BoxComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RingBP_C_3.Trigger, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.40.08:384][285]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0019 seconds. Added 5 classes and 2 folders.
+[2016.02.15-11.40.08:387][285]Warning: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2016.02.15-11.40.08:850][285]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1873 classes and 337 folders.
+[2016.02.15-11.40.24:966][754]Recompiling StarFox...
+[2016.02.15-11.40.24:966][754]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 3069 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.40.24:968][754]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:40:34 PM
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.40.34:084][449]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.40.34:084][449]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(100)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info [2/2] Link UE4Editor-StarFox-3069.dll
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info    Creating library C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-3069.lib and object C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-3069.exp
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.40.34:084][449]CompilerResultsLog: Info Total build time: 8,90 seconds
+[2016.02.15-11.40.34:084][449]LogMainFrame: MainFrame: Module compiling took 9.122 seconds
+[2016.02.15-11.40.34:179][449]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0017 seconds. Added 5 classes and 2 folders.
+[2016.02.15-11.40.34:183][449]Warning: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2016.02.15-11.40.34:631][449]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1873 classes and 337 folders.
+[2016.02.15-11.44.40:162][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.068
+[2016.02.15-11.44.40:170][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SFHUD] ([1] browsable assets)...
+[2016.02.15-11.44.40:170][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SFHUD]
+[2016.02.15-11.44.40:170][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.02.15-11.44.40:207][ 38]LogSavePackage: Save=25.440575ms
+[2016.02.15-11.44.40:207][ 38]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD_Auto560D53C564D33A9AAA1ED88B29DF9F165.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto5.uasset'
+[2016.02.15-11.44.40:209][ 38]LogSavePackage: Total save time: 36.426317ms
+[2016.02.15-11.44.40:209][ 38]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto5.uasset
+[2016.02.15-11.44.40:209][ 38]LogFileHelpers: Auto-saving content packages took 0.047
+[2016.02.15-11.46.03:882][257]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.10:936][751]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.10:941][751]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.10:947][751]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.10:966][751]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.13:092][902]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.17:196][186]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.17:209][187]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.46.35:006][435]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.54.41:039][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.064
+[2016.02.15-11.54.41:046][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SFHUD] ([1] browsable assets)...
+[2016.02.15-11.54.41:046][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SFHUD]
+[2016.02.15-11.54.41:046][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2016.02.15-11.54.41:107][293]LogSavePackage: Save=40.245625ms
+[2016.02.15-11.54.41:107][293]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD_Auto695B33AF94BDB09CF525DA98478D764D6.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto6.uasset'
+[2016.02.15-11.54.41:109][293]LogSavePackage: Total save time: 53.586911ms
+[2016.02.15-11.54.41:109][293]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto6.uasset
+[2016.02.15-11.54.41:109][293]LogFileHelpers: Auto-saving content packages took 0.070
+[2016.02.15-11.56.14:129][356]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-11.58.46:258][993]Recompiling StarFox...
+[2016.02.15-11.58.46:258][993]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 7349 Win64 Development -editorrecompile -canskiplink "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket]
+[2016.02.15-11.58.46:261][993]Warning: Starting HotReload took  0.0s.
+[2016.02.15-11.59.07:281][553]CompilerResultsLog: New page: Compilation - Feb 15, 2016, 1:59:07 PM
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info   Running UnrealHeaderTool "C:/Users/Niclas/Documents/GitHub/StarWingururur/StarFox/StarFox.uproject" "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 10,5210188 seconds
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info ring.cpp
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info PawnWithCamera.cpp
+[2016.02.15-11.59.07:282][553]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.59.07:282][553]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(102)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(36) : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info 
+[2016.02.15-11.59.07:282][553]CompilerResultsLog:Error: Error c:\users\niclas\documents\github\starwingururur\starfox\source\starfox\PawnWithCamera.h(102)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.59.07:282][553]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(36)  : warning C4263: 'void APawnWithCamera::TakeDamage(void)' : member function does not override any base class virtual member function
+[2016.02.15-11.59.07:282][553]CompilerResultsLog:Error: Error C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(102)  : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)' : no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216)  : see declaration of 'APawn::TakeDamage'
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info          C:\Program Files\Epic Games\4.9\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(31)  : see declaration of 'APawn'
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info [4/4] Link UE4Editor-StarFox-7349.dll
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info    Creating library C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-7349.lib and object C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-7349.exp
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.15-11.59.07:282][553]CompilerResultsLog: Info Total build time: 20,86 seconds
+[2016.02.15-11.59.07:282][553]LogMainFrame: MainFrame: Module compiling took 21.028 seconds
+[2016.02.15-11.59.07:334][553]LogClass: Could not find existing class PawnWithCamera in package /Script/StarFox for HotReload, assuming new class
+[2016.02.15-11.59.07:343][553]LogHotReload: Re-instancing PawnWithCamera after hot-reload.
+[2016.02.15-11.59.07:344][553]LogUObjectGlobals:Warning: Guid is in use by SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.Root and SceneComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.Root, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.59.07:344][553]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.UFO and StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.UFO, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.59.07:344][553]LogUObjectGlobals:Warning: Guid is in use by SphereComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.RootComponent and SphereComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.RootComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.59.07:344][553]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.CameraSpringArm and SpringArmComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.CameraSpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.59.07:344][553]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_1.GameCamera and CameraComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PawnWithCamera_0.GameCamera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.02.15-11.59.07:495][553]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0015 seconds. Added 5 classes and 2 folders.
+[2016.02.15-11.59.07:499][553]Warning: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2016.02.15-11.59.07:952][553]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1873 classes and 337 folders.
+[2016.02.15-11.59.26:697][795]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.01.17:614][983]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.01.17:631][983]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.01.17:631][983]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Get Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.01.17:795][983]LogBlueprint:Warning: [compiler SFHUD] Warning [3694.51] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 181 ms]
+[2016.02.15-12.01.17:795][983]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.01.17:795][983]BlueprintEditorCompileResults:Error: Error Variable node  Get Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.01.17:795][983]BlueprintEditorCompileResults:Warning: Warning [3694.51] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 181 ms]
+[2016.02.15-12.01.17:831][984]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.01.20:988][208]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.01.32:839][ 17]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.01.42:679][692]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.01.47:360][ 24]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.02.45:942][110]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.02.49:996][398]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.02.50:013][398]LogBlueprint:Error: [compiler SFHUD] Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.02.50:014][398]LogBlueprint:Error: [compiler SFHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.02.50:171][398]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.02.50:172][398]LogBlueprint:Warning: [compiler SFHUD] Warning [3786.89] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 175 ms]
+[2016.02.15-12.02.50:172][398]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.02.50:172][398]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.15-12.02.50:172][398]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.02.50:172][398]BlueprintEditorCompileResults:Warning: Warning [3786.89] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 175 ms]
+[2016.02.15-12.03.10:588][819]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.03.16:850][260]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.04.41:915][871]LogSavePackage: Save=164.665085ms
+[2016.02.15-12.04.41:915][871]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Minimal_Default_Auto74C50A7E34AF2A4F71A8F3BBC33316FB4.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap'
+[2016.02.15-12.04.41:918][871]LogSavePackage: Total save time: 179.915134ms
+[2016.02.15-12.04.41:918][871]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap
+[2016.02.15-12.04.41:920][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.227
+[2016.02.15-12.04.41:920][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.227
+[2016.02.15-12.04.41:927][871]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/SFHUD] ([1] browsable assets)...
+[2016.02.15-12.04.41:927][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/SFHUD]
+[2016.02.15-12.04.41:927][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/SFHUD" FILE="../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.02.15-12.04.41:963][871]LogSavePackage: Save=24.170229ms
+[2016.02.15-12.04.41:963][871]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/SFHUD_Auto707E126E146A330DB860F10A3FBF120A9.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto7.uasset'
+[2016.02.15-12.04.41:966][871]LogSavePackage: Total save time: 36.993872ms
+[2016.02.15-12.04.41:966][871]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/StarWingururur/StarFox/Saved/Autosaves/Game/UI/SFHUD_Auto7.uasset
+[2016.02.15-12.04.41:966][871]LogFileHelpers: Auto-saving content packages took 0.046
+[2016.02.15-12.05.43:897][504]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.05.46:135][664]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.05.46:154][664]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.05.46:154][664]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.05.46:267][664]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.05.46:268][664]LogBlueprint:Warning: [compiler SFHUD] Warning [3962.99] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 132 ms]
+[2016.02.15-12.05.46:268][664]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.05.46:268][664]BlueprintEditorCompileResults:Error: Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.05.46:268][664]BlueprintEditorCompileResults:Warning: Warning [3962.99] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 132 ms]
+[2016.02.15-12.05.46:302][665]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.06.01:602][698]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.06.18:460][853]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.06.18:478][853]LogBlueprint:Warning: [compiler SFHUD] Warning ReturnNode Exec pin has no connections on  EdGraphPin_68583 
+[2016.02.15-12.06.18:479][853]LogBlueprint:Error: [compiler SFHUD] Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.06.18:479][853]LogBlueprint:Error: [compiler SFHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.06.18:479][853]LogBlueprint:Error: [compiler SFHUD] Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_152 ': Member:GetPercent_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2016.02.15-12.06.18:592][853]LogBlueprint:Warning: [compiler SFHUD] Warning [3995.31] Compile of SFHUD failed. 3 Fatal Issue(s) 1 Warning(s) [in 131 ms]
+[2016.02.15-12.06.18:592][853]BlueprintEditorCompileResults:Warning: Warning ReturnNode Exec pin has no connections on  EdGraphPin_68583 
+[2016.02.15-12.06.18:592][853]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.06.18:592][853]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.06.18:592][853]BlueprintEditorCompileResults:Error: Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_152 ': Member:GetPercent_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2016.02.15-12.06.18:593][853]BlueprintEditorCompileResults:Warning: Warning [3995.31] Compile of SFHUD failed. 3 Fatal Issue(s) 1 Warning(s) [in 131 ms]
+[2016.02.15-12.06.41:134][398]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.06.56:316][451]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.06.57:929][566]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.07.03:070][929]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.07.03:087][929]LogBlueprint:Error: [compiler SFHUD] Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.07.03:087][929]LogBlueprint:Error: [compiler SFHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.07.03:200][929]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.07.03:201][929]LogBlueprint:Warning: [compiler SFHUD] Warning [4039.92] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.02.15-12.07.03:201][929]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To PawnWithCamera  to imply a specific type.
+[2016.02.15-12.07.03:201][929]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.02.15-12.07.03:201][929]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.02.15-12.07.03:201][929]BlueprintEditorCompileResults:Warning: Warning [4039.92] Compile of SFHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.02.15-12.07.12:121][558]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.07.14:399][719]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.07.14:417][719]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.14:417][719]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.14:417][719]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.14:417][719]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.14:529][719]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.07.14:530][719]LogBlueprint:Warning: [compiler SFHUD] Warning [4051.25] Compile of SFHUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2016.02.15-12.07.14:530][719]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.14:530][719]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.14:530][719]BlueprintEditorCompileResults:Error: Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.14:530][719]BlueprintEditorCompileResults:Error: Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.14:530][719]BlueprintEditorCompileResults:Warning: Warning [4051.25] Compile of SFHUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2016.02.15-12.07.14:566][720]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.07.32:734][982]BlueprintLog: New page: Compile SFHUD
+[2016.02.15-12.07.32:752][982]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.32:752][982]LogBlueprint:Error: [compiler SFHUD] Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.32:752][982]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.32:752][982]LogBlueprint:Error: [compiler SFHUD] Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.32:865][982]LogBlueprint:Warning: [compiler SFHUD] Warning [4069.58] Compile of SFHUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.02.15-12.07.32:865][982]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.32:865][982]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PawnWithCamera, therefore ' Target ' must have a connection.
+[2016.02.15-12.07.32:865][982]BlueprintEditorCompileResults:Error: Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.32:865][982]BlueprintEditorCompileResults:Error: Error Variable node  Set Health  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.02.15-12.07.32:865][982]BlueprintEditorCompileResults:Warning: Warning [4069.58] Compile of SFHUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 130 ms]
+[2016.02.15-12.07.32:902][983]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.08.00:100][904]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.08.03:093][115]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.08.24:071][596]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.09.55:400][761]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.09.59:749][ 68]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Script/StarFox.PawnWithCamera'
+[2016.02.15-12.10.24:669][781]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-12.10.44:302][166]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'SFHUD', cached variable property's owner is '/Game/UI/SFHUD.SKEL_SFHUD_C'
+[2016.02.15-12.12.11:435][800]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.02.15-12.12.11:706][800]LogCrashTracker: 
+
+
+[2016.02.15-12.12.11:708][800]LogCrashTracker: 
+
+
+[2016.02.15-12.12.11:708][800]LogWindows: === Critical error: ===
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 678] 
+Array index out of bounds: -92905088 from an array of size -89787512
+
+
+
+
+[2016.02.15-12.12.11:813][800]LogExit: Executing StaticShutdownAfterError
+[2016.02.15-12.12.11:827][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:829][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:830][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:832][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:834][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:835][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:837][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:838][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:840][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:841][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:843][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:844][800]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.15-12.12.11:845][800]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.02.15-12.12.11:845][800]Log file closed, 02/15/16 13:12:11

@@ -9,25 +9,35 @@
 #include "StarFox.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStarFox() {}
+	void ABullet::StaticRegisterNativesABullet()
+	{
+	}
+	IMPLEMENT_CLASS(ABullet, 2289288579);
 	void ACrosshair::StaticRegisterNativesACrosshair()
 	{
 	}
 	IMPLEMENT_CLASS(ACrosshair, 1166946275);
 	void APawnWithCamera::StaticRegisterNativesAPawnWithCamera()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(APawnWithCamera::StaticClass(),"TakeDamage",(Native)&APawnWithCamera::execTakeDamage);
 	}
-	IMPLEMENT_CLASS(APawnWithCamera, 1994524780);
+	IMPLEMENT_CLASS(APawnWithCamera, 1350865569);
 	void Aring::StaticRegisterNativesAring()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(Aring::StaticClass(),"OnBeginOverlap",(Native)&Aring::execOnBeginOverlap);
 	}
-	IMPLEMENT_CLASS(Aring, 1091987859);
+	IMPLEMENT_CLASS(Aring, 2846355056);
 	void AStarFoxGameMode::StaticRegisterNativesAStarFoxGameMode()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(AStarFoxGameMode::StaticClass(),"AddTime",(Native)&AStarFoxGameMode::execAddTime);
+		FNativeFunctionRegistrar::RegisterFunction(AStarFoxGameMode::StaticClass(),"GetTime",(Native)&AStarFoxGameMode::execGetTime);
 	}
-	IMPLEMENT_CLASS(AStarFoxGameMode, 2708316135);
+	IMPLEMENT_CLASS(AStarFoxGameMode, 4232584179);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
+	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AHUD();
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
@@ -36,22 +46,66 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	UMG_API class UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 
+	STARFOX_API class UClass* Z_Construct_UClass_ABullet_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_ABullet();
 	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair();
+	STARFOX_API class UFunction* Z_Construct_UFunction_APawnWithCamera_TakeDamage();
 	STARFOX_API class UClass* Z_Construct_UClass_APawnWithCamera_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_APawnWithCamera();
 	STARFOX_API class UFunction* Z_Construct_UFunction_Aring_OnBeginOverlap();
 	STARFOX_API class UClass* Z_Construct_UClass_Aring_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_Aring();
+	STARFOX_API class UFunction* Z_Construct_UFunction_AStarFoxGameMode_AddTime();
+	STARFOX_API class UFunction* Z_Construct_UFunction_AStarFoxGameMode_GetTime();
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode();
 	STARFOX_API class UPackage* Z_Construct_UPackage_StarFox();
+	UClass* Z_Construct_UClass_ABullet_NoRegister()
+	{
+		return ABullet::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABullet()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = ABullet::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BulletMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BulletMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BulletMesh, ABullet), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+				UProperty* NewProp_MovementComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MovementComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(MovementComponent, ABullet), 0x0000000000080009, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_BulletMesh, TEXT("Category"), TEXT("Bullet"));
+				MetaData->SetValue(NewProp_BulletMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BulletMesh, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_MovementComponent, TEXT("Category"), TEXT("Bullet"));
+				MetaData->SetValue(NewProp_MovementComponent, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_MovementComponent, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABullet(Z_Construct_UClass_ABullet, TEXT("ABullet"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABullet);
 	UClass* Z_Construct_UClass_ACrosshair_NoRegister()
 	{
 		return ACrosshair::StaticClass();
@@ -86,6 +140,23 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACrosshair(Z_Construct_UClass_ACrosshair, TEXT("ACrosshair"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACrosshair);
+	UFunction* Z_Construct_UFunction_APawnWithCamera_TakeDamage()
+	{
+		UObject* Outer=Z_Construct_UClass_APawnWithCamera();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("TakeDamage"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Damage"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APawnWithCamera_NoRegister()
 	{
 		return APawnWithCamera::StaticClass();
@@ -103,6 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnWithCamera_TakeDamage());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_CurrentForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentForwardSpeed"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(CurrentForwardSpeed, APawnWithCamera), 0x0000000000000001);
@@ -113,7 +185,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_CollisionSphere = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionSphere"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CollisionSphere, APawnWithCamera), 0x0000080000080009, Z_Construct_UClass_USphereComponent_NoRegister());
 				UProperty* NewProp_OurCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OurCamera"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OurCamera, APawnWithCamera), 0x0000080000080009, Z_Construct_UClass_UCameraComponent_NoRegister());
 				UProperty* NewProp_OurCameraSpringArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OurCameraSpringArm"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OurCameraSpringArm, APawnWithCamera), 0x0000080000080009, Z_Construct_UClass_USpringArmComponent_NoRegister());
+				UProperty* NewProp_MaxBoost = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxBoost"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(MaxBoost, APawnWithCamera), 0x0000000000000005);
+				UProperty* NewProp_Boost = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Boost"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(Boost, APawnWithCamera), 0x0000000000000005);
+				UProperty* NewProp_MaxHealth = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxHealth"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(MaxHealth, APawnWithCamera), 0x0000000000000005);
+				UProperty* NewProp_Health = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Health"), RF_Public|RF_Transient|RF_Native) UFloatProperty(CPP_PROPERTY_BASE(Health, APawnWithCamera), 0x0000000000000005);
+				UProperty* NewProp_BulletClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BulletClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(BulletClass, APawnWithCamera), 0x0004000000000001, Z_Construct_UClass_ABullet_NoRegister());
+				UProperty* NewProp_UFOMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("UFOMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(UFOMesh, APawnWithCamera), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_APawnWithCamera_TakeDamage()); // 3385642557
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -144,6 +223,19 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_OurCameraSpringArm, TEXT("Category"), TEXT("PawnWithCamera"));
 				MetaData->SetValue(NewProp_OurCameraSpringArm, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_OurCameraSpringArm, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_MaxBoost, TEXT("Category"), TEXT("MaxBoost"));
+				MetaData->SetValue(NewProp_MaxBoost, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_Boost, TEXT("Category"), TEXT("Boost"));
+				MetaData->SetValue(NewProp_Boost, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_MaxHealth, TEXT("Category"), TEXT("MaxHealth"));
+				MetaData->SetValue(NewProp_MaxHealth, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_Health, TEXT("Category"), TEXT("Health"));
+				MetaData->SetValue(NewProp_Health, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_BulletClass, TEXT("Category"), TEXT("PawnWithCamera"));
+				MetaData->SetValue(NewProp_BulletClass, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
+				MetaData->SetValue(NewProp_UFOMesh, TEXT("Category"), TEXT("PawnWithCamera"));
+				MetaData->SetValue(NewProp_UFOMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_UFOMesh, TEXT("ModuleRelativePath"), TEXT("PawnWithCamera.h"));
 #endif
 			}
 		}
@@ -203,6 +295,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->LinkChild(Z_Construct_UFunction_Aring_OnBeginOverlap());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_pwc = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("pwc"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(pwc, Aring), 0x0000000000000001, Z_Construct_UClass_APawnWithCamera_NoRegister());
 				UProperty* NewProp_Trigger = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Trigger"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Trigger, Aring), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
 				UProperty* NewProp_RingMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RingMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(RingMesh, Aring), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
@@ -212,6 +305,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ring.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ring.h"));
+				MetaData->SetValue(NewProp_pwc, TEXT("Category"), TEXT("ring"));
+				MetaData->SetValue(NewProp_pwc, TEXT("ModuleRelativePath"), TEXT("ring.h"));
 				MetaData->SetValue(NewProp_Trigger, TEXT("Category"), TEXT("ring"));
 				MetaData->SetValue(NewProp_Trigger, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_Trigger, TEXT("ModuleRelativePath"), TEXT("ring.h"));
@@ -226,6 +321,50 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_Aring(Z_Construct_UClass_Aring, TEXT("Aring"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(Aring);
+	UFunction* Z_Construct_UFunction_AStarFoxGameMode_AddTime()
+	{
+		struct StarFoxGameMode_eventAddTime_Parms
+		{
+			int32 AddedTime;
+		};
+		UObject* Outer=Z_Construct_UClass_AStarFoxGameMode();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("AddTime"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00020401, 65535, sizeof(StarFoxGameMode_eventAddTime_Parms));
+			UProperty* NewProp_AddedTime = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("AddedTime"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(AddedTime, StarFoxGameMode_eventAddTime_Parms), 0x0000000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Time"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AStarFoxGameMode_GetTime()
+	{
+		struct StarFoxGameMode_eventGetTime_Parms
+		{
+			int32 ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_AStarFoxGameMode();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTime"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x14020401, 65535, sizeof(StarFoxGameMode_eventGetTime_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(ReturnValue, StarFoxGameMode_eventGetTime_Parms), 0x0000000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Time"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AStarFoxGameMode_NoRegister()
 	{
 		return AStarFoxGameMode::StaticClass();
@@ -243,11 +382,16 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x2090028C;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_AStarFoxGameMode_AddTime());
+				OuterClass->LinkChild(Z_Construct_UFunction_AStarFoxGameMode_GetTime());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_CurrentWidget = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentWidget"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CurrentWidget, AStarFoxGameMode), 0x0000000000000000, Z_Construct_UClass_UUserWidget_NoRegister());
+				UProperty* NewProp_Time = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Time"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(Time, AStarFoxGameMode), 0x0000000000020001);
 				UProperty* NewProp_HUDWidgetClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("HUDWidgetClass"), RF_Public|RF_Transient|RF_Native) UClassProperty(CPP_PROPERTY_BASE(HUDWidgetClass, AStarFoxGameMode), 0x0004000000010001, Z_Construct_UClass_UUserWidget_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AStarFoxGameMode_AddTime()); // 3668453784
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AStarFoxGameMode_GetTime()); // 340072328
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -257,6 +401,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
 				MetaData->SetValue(NewProp_CurrentWidget, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
+				MetaData->SetValue(NewProp_Time, TEXT("Category"), TEXT("StarFoxGameMode"));
+				MetaData->SetValue(NewProp_Time, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
 				MetaData->SetValue(NewProp_HUDWidgetClass, TEXT("Category"), TEXT("StarFoxGameMode"));
 				MetaData->SetValue(NewProp_HUDWidgetClass, TEXT("ModuleRelativePath"), TEXT("StarFoxGameMode.h"));
 #endif
@@ -275,8 +421,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/StarFox")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xACFA4906;
-			Guid.B = 0x98D22875;
+			Guid.A = 0xBD8D3BA2;
+			Guid.B = 0x4BBA2101;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

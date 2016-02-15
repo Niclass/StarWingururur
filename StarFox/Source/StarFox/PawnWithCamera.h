@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Pawn.h"
+#include "Bullet.h"
 #include "PawnWithCamera.generated.h"
 
 UCLASS()
@@ -16,29 +17,56 @@ public:
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+
 	// Called every frame
-	virtual void Tick( float DeltaSeconds ) override;
+	virtual void Tick(float DeltaSeconds) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* UFOMesh;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ABullet> BulletClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth")
+		float MaxHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Boost")
+		float Boost;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxBoost")
+		float MaxBoost;
+
+
+	UFUNCTION(BlueprintCallable, Category = "Damage")
+		void TakeDamage();
+
+	bool CanBoost;
+
+
 
 protected:
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* OurCameraSpringArm;
 	UPROPERTY(EditAnywhere)
-	UCameraComponent* OurCamera;
+		UCameraComponent* OurCamera;
 
 	UPROPERTY(EditAnywhere)
-		USphereComponent* CollisionSphere;	
+		USphereComponent* CollisionSphere;
 
 	//Input variables
 	FVector2D MovementInput;
 	FVector CameraInput;
-	
+
 	void MoveForward(float AxisValue);
 	void PitchCamera(float AxisValue);
 	void YawCamera(float AxisValue);
+
 
 
 	/** Bound to the thrust axis */
@@ -49,6 +77,9 @@ protected:
 
 	/** Bound to the horizontal axis */
 	void MoveRightInput(float Val);
+
+	void ShootBullet();
+
 
 private:
 	/** How quickly forward speed changes */
@@ -69,7 +100,7 @@ private:
 
 	/** Current forward speed */
 	UPROPERTY(EditAnywhere)
-	float CurrentForwardSpeed;
+		float CurrentForwardSpeed;
 
 	/** Current yaw speed */
 	float CurrentYawSpeed;
@@ -79,5 +110,6 @@ private:
 
 	/** Current roll speed */
 	float CurrentRollSpeed;
-	
+
+
 };
