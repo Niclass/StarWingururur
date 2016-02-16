@@ -168,5 +168,5 @@ void APawnWithCamera::ShootBullet()
 
 void APawnWithCamera::TakeDamage()
 {
-	Health = 10;
+	Health -= 10.f;
 }

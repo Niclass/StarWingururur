@@ -44,12 +44,12 @@ void Aring::OnBeginOverlap(AActor* OtherActor, UPrimitiveComponent*
 {
 	if (OtherActor->IsA(APawnWithCamera::StaticClass()))
 	{
-		pwc = Cast<APawnWithCamera>(OtherActor);
+		/*pwc = Cast<APawnWithCamera>(OtherActor);
 		if (pwc != NULL)
 		{
 			pwc->TakeDamage();
 
-		}
+		}*/
 
 		RingMesh->SetVisibility(false);
 		AStarFoxGameMode* gm = (AStarFoxGameMode*)GetWorld()->GetAuthGameMode();
