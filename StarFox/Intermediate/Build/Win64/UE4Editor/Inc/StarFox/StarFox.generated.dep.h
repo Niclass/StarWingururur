@@ -5,6 +5,9 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
+#ifndef STARFOX_BoxDestroy_generated_h
+	#include "BoxDestroy.h"
+#endif
 #ifndef STARFOX_Bullet_generated_h
 	#include "Bullet.h"
 #endif

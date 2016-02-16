@@ -1,73 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\StarFox.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{082CEBE5-4D20-4F5F-A084-4EB268C47BB4}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\StarFox.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\StarFoxEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{63A78E78-A795-4845-BF29-30285E3E241B}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\StarFox">
-			<UniqueIdentifier>{4220F5E9-C3F3-48BE-9F70-300FDF38D398}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\StarFox\Bullet.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\Bullet.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\StarFox\Crosshair.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\Crosshair.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\StarFox\PawnWithCamera.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\PawnWithCamera.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\StarFox\ring.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\ring.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\StarFox\StarFox.Build.cs">
-			<Filter>Source\StarFox</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\StarFox\StarFox.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\StarFox.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\StarFox\StarFoxGameMode.cpp">
-			<Filter>Source\StarFox</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\StarFox\StarFoxGameMode.h">
-			<Filter>Source\StarFox</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\StarFox.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{082CEBE5-4D20-4F5F-A084-4EB268C47BB4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\StarFox.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\StarFoxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{63A78E78-A795-4845-BF29-30285E3E241B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\StarFox">
+      <UniqueIdentifier>{4220F5E9-C3F3-48BE-9F70-300FDF38D398}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\StarFox\Bullet.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\Bullet.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFox\Crosshair.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\Crosshair.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFox\PawnWithCamera.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\PawnWithCamera.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFox\ring.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\ring.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\StarFox\StarFox.Build.cs">
+      <Filter>Source\StarFox</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\StarFox\StarFox.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\StarFox.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFox\StarFoxGameMode.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\StarFoxGameMode.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\StarFox\BoxDestroy.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\StarFox\BoxDestroy.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

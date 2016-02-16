@@ -23,6 +23,10 @@ void AStarFoxGameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Time--;
+	if (Time <= 0)
+	{
+		GetWorld()->ServerTravel(FString("/Game/Maps/GameOver"));
+	}
 }
 
 int32 AStarFoxGameMode::GetTime()

@@ -9,6 +9,10 @@
 #include "StarFox.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStarFox() {}
+	void ABoxDestroy::StaticRegisterNativesABoxDestroy()
+	{
+	}
+	IMPLEMENT_CLASS(ABoxDestroy, 2625372979);
 	void ABullet::StaticRegisterNativesABullet()
 	{
 	}
@@ -50,6 +54,8 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	UMG_API class UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 
+	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy();
 	STARFOX_API class UClass* Z_Construct_UClass_ABullet_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_ABullet();
 	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair_NoRegister();
@@ -65,6 +71,43 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode();
 	STARFOX_API class UPackage* Z_Construct_UPackage_StarFox();
+	UClass* Z_Construct_UClass_ABoxDestroy_NoRegister()
+	{
+		return ABoxDestroy::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABoxDestroy()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = ABoxDestroy::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BoxMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxMesh, ABoxDestroy), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BoxDestroy.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("Category"), TEXT("BoxDestroy"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoxDestroy(Z_Construct_UClass_ABoxDestroy, TEXT("ABoxDestroy"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoxDestroy);
 	UClass* Z_Construct_UClass_ABullet_NoRegister()
 	{
 		return ABullet::StaticClass();
@@ -421,8 +464,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/StarFox")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xBD8D3BA2;
-			Guid.B = 0x4BBA2101;
+			Guid.A = 0x13EB9507;
+			Guid.B = 0x9887B7A1;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

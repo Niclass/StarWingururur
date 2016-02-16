@@ -169,4 +169,8 @@ void APawnWithCamera::ShootBullet()
 void APawnWithCamera::TakeDamage()
 {
 	Health -= 10.f;
+	if (Health <= 0)
+	{
+		GetWorld()->ServerTravel(FString("/Game/Maps/GameOver"));
+	}
 }
