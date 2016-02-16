@@ -8,14 +8,43 @@
 #include "ObjectBase.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef STARFOX_BoxDestroy_generated_h
 #error "BoxDestroy.generated.h already included, missing '#pragma once' in BoxDestroy.h"
 #endif
 #define STARFOX_BoxDestroy_generated_h
 
-#define StarFox_Source_StarFox_BoxDestroy_h_11_RPC_WRAPPERS
-#define StarFox_Source_StarFox_BoxDestroy_h_11_RPC_WRAPPERS_NO_PURE_DECLS
-#define StarFox_Source_StarFox_BoxDestroy_h_11_INCLASS_NO_PURE_DECLS \
+#define StarFox_Source_StarFox_BoxDestroy_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		this->OnBeginOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+	}
+
+
+#define StarFox_Source_StarFox_BoxDestroy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBeginOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		this->OnBeginOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+	}
+
+
+#define StarFox_Source_StarFox_BoxDestroy_h_12_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesABoxDestroy(); \
 	friend STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy(); \
@@ -26,7 +55,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ABoxDestroy*>(this); }
 
 
-#define StarFox_Source_StarFox_BoxDestroy_h_11_INCLASS \
+#define StarFox_Source_StarFox_BoxDestroy_h_12_INCLASS \
 	private: \
 	static void StaticRegisterNativesABoxDestroy(); \
 	friend STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy(); \
@@ -37,7 +66,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<ABoxDestroy*>(this); }
 
 
-#define StarFox_Source_StarFox_BoxDestroy_h_11_STANDARD_CONSTRUCTORS \
+#define StarFox_Source_StarFox_BoxDestroy_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABoxDestroy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABoxDestroy) \
@@ -49,7 +78,7 @@ private: \
 public:
 
 
-#define StarFox_Source_StarFox_BoxDestroy_h_11_ENHANCED_CONSTRUCTORS \
+#define StarFox_Source_StarFox_BoxDestroy_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API ABoxDestroy(const ABoxDestroy& InCopy); \
@@ -59,23 +88,23 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABoxDestroy); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABoxDestroy)
 
 
-#define StarFox_Source_StarFox_BoxDestroy_h_8_PROLOG
-#define StarFox_Source_StarFox_BoxDestroy_h_11_GENERATED_BODY_LEGACY \
+#define StarFox_Source_StarFox_BoxDestroy_h_9_PROLOG
+#define StarFox_Source_StarFox_BoxDestroy_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StarFox_Source_StarFox_BoxDestroy_h_11_RPC_WRAPPERS \
-	StarFox_Source_StarFox_BoxDestroy_h_11_INCLASS \
-	StarFox_Source_StarFox_BoxDestroy_h_11_STANDARD_CONSTRUCTORS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_RPC_WRAPPERS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_INCLASS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StarFox_Source_StarFox_BoxDestroy_h_11_GENERATED_BODY \
+#define StarFox_Source_StarFox_BoxDestroy_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StarFox_Source_StarFox_BoxDestroy_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	StarFox_Source_StarFox_BoxDestroy_h_11_INCLASS_NO_PURE_DECLS \
-	StarFox_Source_StarFox_BoxDestroy_h_11_ENHANCED_CONSTRUCTORS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_INCLASS_NO_PURE_DECLS \
+	StarFox_Source_StarFox_BoxDestroy_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

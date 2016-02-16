@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Actor.h"
+#include "PawnWithCamera.h"
 #include "BoxDestroy.generated.h"
 
 UCLASS()
@@ -23,6 +24,10 @@ public:
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* BoxMesh;
 
-	
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* Trigger;
+
+	UFUNCTION()
+		void OnBeginOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	
 };

@@ -9,23 +9,24 @@
 #include "StarFox.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStarFox() {}
-	void ABoxDestroy::StaticRegisterNativesABoxDestroy()
-	{
-	}
-	IMPLEMENT_CLASS(ABoxDestroy, 2625372979);
 	void ABullet::StaticRegisterNativesABullet()
 	{
 	}
 	IMPLEMENT_CLASS(ABullet, 2289288579);
-	void ACrosshair::StaticRegisterNativesACrosshair()
-	{
-	}
-	IMPLEMENT_CLASS(ACrosshair, 1166946275);
 	void APawnWithCamera::StaticRegisterNativesAPawnWithCamera()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APawnWithCamera::StaticClass(),"TakeDamage",(Native)&APawnWithCamera::execTakeDamage);
 	}
 	IMPLEMENT_CLASS(APawnWithCamera, 1350865569);
+	void ABoxDestroy::StaticRegisterNativesABoxDestroy()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(ABoxDestroy::StaticClass(),"OnBeginOverlap",(Native)&ABoxDestroy::execOnBeginOverlap);
+	}
+	IMPLEMENT_CLASS(ABoxDestroy, 2416776508);
+	void ACrosshair::StaticRegisterNativesACrosshair()
+	{
+	}
+	IMPLEMENT_CLASS(ACrosshair, 1166946275);
 	void Aring::StaticRegisterNativesAring()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(Aring::StaticClass(),"OnBeginOverlap",(Native)&Aring::execOnBeginOverlap);
@@ -37,12 +38,16 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 		FNativeFunctionRegistrar::RegisterFunction(AStarFoxGameMode::StaticClass(),"GetTime",(Native)&AStarFoxGameMode::execGetTime);
 	}
 	IMPLEMENT_CLASS(AStarFoxGameMode, 4232584179);
+	void AWallEnemy::StaticRegisterNativesAWallEnemy()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AWallEnemy::StaticClass(),"OnBeginOverlap",(Native)&AWallEnemy::execOnBeginOverlap);
+	}
+	IMPLEMENT_CLASS(AWallEnemy, 4079965414);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 	ENGINE_API class UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
-	ENGINE_API class UClass* Z_Construct_UClass_AHUD();
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -51,18 +56,20 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_AHUD();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	UMG_API class UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 
-	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy_NoRegister();
-	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy();
 	STARFOX_API class UClass* Z_Construct_UClass_ABullet_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_ABullet();
-	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair_NoRegister();
-	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair();
 	STARFOX_API class UFunction* Z_Construct_UFunction_APawnWithCamera_TakeDamage();
 	STARFOX_API class UClass* Z_Construct_UClass_APawnWithCamera_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_APawnWithCamera();
+	STARFOX_API class UFunction* Z_Construct_UFunction_ABoxDestroy_OnBeginOverlap();
+	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_ABoxDestroy();
+	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_ACrosshair();
 	STARFOX_API class UFunction* Z_Construct_UFunction_Aring_OnBeginOverlap();
 	STARFOX_API class UClass* Z_Construct_UClass_Aring_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_Aring();
@@ -70,44 +77,10 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	STARFOX_API class UFunction* Z_Construct_UFunction_AStarFoxGameMode_GetTime();
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_AStarFoxGameMode();
+	STARFOX_API class UFunction* Z_Construct_UFunction_AWallEnemy_OnBeginOverlap();
+	STARFOX_API class UClass* Z_Construct_UClass_AWallEnemy_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_AWallEnemy();
 	STARFOX_API class UPackage* Z_Construct_UPackage_StarFox();
-	UClass* Z_Construct_UClass_ABoxDestroy_NoRegister()
-	{
-		return ABoxDestroy::StaticClass();
-	}
-	UClass* Z_Construct_UClass_ABoxDestroy()
-	{
-		static UClass* OuterClass = NULL;
-		if (!OuterClass)
-		{
-			Z_Construct_UClass_AActor();
-			Z_Construct_UPackage_StarFox();
-			OuterClass = ABoxDestroy::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= 0x20900080;
-
-
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_BoxMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxMesh, ABoxDestroy), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BoxDestroy.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
-				MetaData->SetValue(NewProp_BoxMesh, TEXT("Category"), TEXT("BoxDestroy"));
-				MetaData->SetValue(NewProp_BoxMesh, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_BoxMesh, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
-#endif
-			}
-		}
-		check(OuterClass->GetClass());
-		return OuterClass;
-	}
-	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoxDestroy(Z_Construct_UClass_ABoxDestroy, TEXT("ABoxDestroy"));
-	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoxDestroy);
 	UClass* Z_Construct_UClass_ABullet_NoRegister()
 	{
 		return ABullet::StaticClass();
@@ -149,40 +122,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABullet(Z_Construct_UClass_ABullet, TEXT("ABullet"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABullet);
-	UClass* Z_Construct_UClass_ACrosshair_NoRegister()
-	{
-		return ACrosshair::StaticClass();
-	}
-	UClass* Z_Construct_UClass_ACrosshair()
-	{
-		static UClass* OuterClass = NULL;
-		if (!OuterClass)
-		{
-			Z_Construct_UClass_AHUD();
-			Z_Construct_UPackage_StarFox();
-			OuterClass = ACrosshair::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= 0x2090028C;
-
-
-				OuterClass->ClassConfigName = FName(TEXT("Game"));
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Rendering Actor Input Replication"));
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Crosshair.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Crosshair.h"));
-				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
-#endif
-			}
-		}
-		check(OuterClass->GetClass());
-		return OuterClass;
-	}
-	static FCompiledInDefer Z_CompiledInDefer_UClass_ACrosshair(Z_Construct_UClass_ACrosshair, TEXT("ACrosshair"));
-	DEFINE_VTABLE_PTR_HELPER_CTOR(ACrosshair);
 	UFunction* Z_Construct_UFunction_APawnWithCamera_TakeDamage()
 	{
 		UObject* Outer=Z_Construct_UClass_APawnWithCamera();
@@ -287,6 +226,114 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APawnWithCamera(Z_Construct_UClass_APawnWithCamera, TEXT("APawnWithCamera"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APawnWithCamera);
+	UFunction* Z_Construct_UFunction_ABoxDestroy_OnBeginOverlap()
+	{
+		struct BoxDestroy_eventOnBeginOverlap_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+			bool bFromSweep;
+			FHitResult SweepResult;
+		};
+		UObject* Outer=Z_Construct_UClass_ABoxDestroy();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnBeginOverlap"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00420401, 65535, sizeof(BoxDestroy_eventOnBeginOverlap_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, BoxDestroy_eventOnBeginOverlap_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, BoxDestroy_eventOnBeginOverlap_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, BoxDestroy_eventOnBeginOverlap_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, BoxDestroy_eventOnBeginOverlap_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, BoxDestroy_eventOnBeginOverlap_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, BoxDestroy_eventOnBeginOverlap_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, BoxDestroy_eventOnBeginOverlap_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ABoxDestroy_NoRegister()
+	{
+		return ABoxDestroy::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABoxDestroy()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = ABoxDestroy::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_ABoxDestroy_OnBeginOverlap());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_Trigger = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Trigger"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Trigger, ABoxDestroy), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
+				UProperty* NewProp_BoxMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BoxMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(BoxMesh, ABoxDestroy), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_ABoxDestroy_OnBeginOverlap()); // 2343663952
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BoxDestroy.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("Category"), TEXT("BoxDestroy"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("Category"), TEXT("BoxDestroy"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BoxMesh, TEXT("ModuleRelativePath"), TEXT("BoxDestroy.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoxDestroy(Z_Construct_UClass_ABoxDestroy, TEXT("ABoxDestroy"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoxDestroy);
+	UClass* Z_Construct_UClass_ACrosshair_NoRegister()
+	{
+		return ACrosshair::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ACrosshair()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AHUD();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = ACrosshair::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x2090028C;
+
+
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Rendering Actor Input Replication"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Crosshair.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Crosshair.h"));
+				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ACrosshair(Z_Construct_UClass_ACrosshair, TEXT("ACrosshair"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ACrosshair);
 	UFunction* Z_Construct_UFunction_Aring_OnBeginOverlap()
 	{
 		struct ring_eventOnBeginOverlap_Parms
@@ -456,6 +503,83 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AStarFoxGameMode(Z_Construct_UClass_AStarFoxGameMode, TEXT("AStarFoxGameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AStarFoxGameMode);
+	UFunction* Z_Construct_UFunction_AWallEnemy_OnBeginOverlap()
+	{
+		struct WallEnemy_eventOnBeginOverlap_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+			bool bFromSweep;
+			FHitResult SweepResult;
+		};
+		UObject* Outer=Z_Construct_UClass_AWallEnemy();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnBeginOverlap"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00420401, 65535, sizeof(WallEnemy_eventOnBeginOverlap_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, WallEnemy_eventOnBeginOverlap_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, WallEnemy_eventOnBeginOverlap_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, WallEnemy_eventOnBeginOverlap_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, WallEnemy_eventOnBeginOverlap_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, WallEnemy_eventOnBeginOverlap_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, WallEnemy_eventOnBeginOverlap_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, WallEnemy_eventOnBeginOverlap_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("WallEnemy.h"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AWallEnemy_NoRegister()
+	{
+		return AWallEnemy::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AWallEnemy()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = AWallEnemy::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AWallEnemy_OnBeginOverlap());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_pwc = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("pwc"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(pwc, AWallEnemy), 0x0000000000000001, Z_Construct_UClass_APawnWithCamera_NoRegister());
+				UProperty* NewProp_Trigger = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Trigger"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Trigger, AWallEnemy), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
+				UProperty* NewProp_EnemyMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("EnemyMesh"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(EnemyMesh, AWallEnemy), 0x0000000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AWallEnemy_OnBeginOverlap()); // 16712111
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("WallEnemy.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("WallEnemy.h"));
+				MetaData->SetValue(NewProp_pwc, TEXT("Category"), TEXT("WallEnemy"));
+				MetaData->SetValue(NewProp_pwc, TEXT("ModuleRelativePath"), TEXT("WallEnemy.h"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("Category"), TEXT("WallEnemy"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("ModuleRelativePath"), TEXT("WallEnemy.h"));
+				MetaData->SetValue(NewProp_EnemyMesh, TEXT("Category"), TEXT("WallEnemy"));
+				MetaData->SetValue(NewProp_EnemyMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_EnemyMesh, TEXT("ModuleRelativePath"), TEXT("WallEnemy.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AWallEnemy(Z_Construct_UClass_AWallEnemy, TEXT("AWallEnemy"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AWallEnemy);
 	UPackage* Z_Construct_UPackage_StarFox()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -464,8 +588,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/StarFox")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x13EB9507;
-			Guid.B = 0x9887B7A1;
+			Guid.A = 0x81C447A8;
+			Guid.B = 0xD0F9FE3A;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

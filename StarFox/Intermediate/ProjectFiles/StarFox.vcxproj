@@ -250,6 +250,8 @@
     <NMakeOutput>..\..\Binaries\Win64\StarFox-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\StarFox\WallEnemy.cpp" />
+    <ClInclude Include="..\..\Source\StarFox\WallEnemy.h" />
     <None Include="..\..\StarFox.uproject" />
     <None Include="..\..\Source\StarFox.Target.cs" />
     <None Include="..\..\Source\StarFoxEditor.Target.cs" />

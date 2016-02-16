@@ -73,9 +73,15 @@
     <ClInclude Include="..\..\Source\StarFox\BoxDestroy.h">
       <Filter>Source\StarFox</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\StarFox\WallEnemy.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\StarFox\BoxDestroy.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\StarFox\WallEnemy.cpp">
       <Filter>Source\StarFox</Filter>
     </ClCompile>
   </ItemGroup>
