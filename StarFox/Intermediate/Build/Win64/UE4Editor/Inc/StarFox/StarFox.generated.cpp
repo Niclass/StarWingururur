@@ -12,37 +12,42 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	void ABullet::StaticRegisterNativesABullet()
 	{
 	}
-	IMPLEMENT_CLASS(ABullet, 2289288579);
+	IMPLEMENT_CLASS(ABullet, 3019735139);
 	void APawnWithCamera::StaticRegisterNativesAPawnWithCamera()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(APawnWithCamera::StaticClass(),"TakeDamage",(Native)&APawnWithCamera::execTakeDamage);
 	}
-	IMPLEMENT_CLASS(APawnWithCamera, 1350865569);
+	IMPLEMENT_CLASS(APawnWithCamera, 1434330713);
 	void ABoxDestroy::StaticRegisterNativesABoxDestroy()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ABoxDestroy::StaticClass(),"OnBeginOverlap",(Native)&ABoxDestroy::execOnBeginOverlap);
 	}
-	IMPLEMENT_CLASS(ABoxDestroy, 2416776508);
+	IMPLEMENT_CLASS(ABoxDestroy, 2061141474);
 	void ACrosshair::StaticRegisterNativesACrosshair()
 	{
 	}
-	IMPLEMENT_CLASS(ACrosshair, 1166946275);
+	IMPLEMENT_CLASS(ACrosshair, 490208051);
 	void Aring::StaticRegisterNativesAring()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(Aring::StaticClass(),"OnBeginOverlap",(Native)&Aring::execOnBeginOverlap);
 	}
-	IMPLEMENT_CLASS(Aring, 2846355056);
+	IMPLEMENT_CLASS(Aring, 1517705416);
 	void AStarFoxGameMode::StaticRegisterNativesAStarFoxGameMode()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AStarFoxGameMode::StaticClass(),"AddTime",(Native)&AStarFoxGameMode::execAddTime);
 		FNativeFunctionRegistrar::RegisterFunction(AStarFoxGameMode::StaticClass(),"GetTime",(Native)&AStarFoxGameMode::execGetTime);
 	}
-	IMPLEMENT_CLASS(AStarFoxGameMode, 4232584179);
+	IMPLEMENT_CLASS(AStarFoxGameMode, 504240789);
 	void AWallEnemy::StaticRegisterNativesAWallEnemy()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(AWallEnemy::StaticClass(),"OnBeginOverlap",(Native)&AWallEnemy::execOnBeginOverlap);
 	}
-	IMPLEMENT_CLASS(AWallEnemy, 4079965414);
+	IMPLEMENT_CLASS(AWallEnemy, 2802255992);
+	void AWinTrigger::StaticRegisterNativesAWinTrigger()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AWinTrigger::StaticClass(),"OnBeginOverlap",(Native)&AWinTrigger::execOnBeginOverlap);
+	}
+	IMPLEMENT_CLASS(AWinTrigger, 273225435);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
@@ -80,6 +85,9 @@ void EmptyLinkFunctionForGeneratedCodeStarFox() {}
 	STARFOX_API class UFunction* Z_Construct_UFunction_AWallEnemy_OnBeginOverlap();
 	STARFOX_API class UClass* Z_Construct_UClass_AWallEnemy_NoRegister();
 	STARFOX_API class UClass* Z_Construct_UClass_AWallEnemy();
+	STARFOX_API class UFunction* Z_Construct_UFunction_AWinTrigger_OnBeginOverlap();
+	STARFOX_API class UClass* Z_Construct_UClass_AWinTrigger_NoRegister();
+	STARFOX_API class UClass* Z_Construct_UClass_AWinTrigger();
 	STARFOX_API class UPackage* Z_Construct_UPackage_StarFox();
 	UClass* Z_Construct_UClass_ABullet_NoRegister()
 	{
@@ -580,16 +588,89 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AWallEnemy(Z_Construct_UClass_AWallEnemy, TEXT("AWallEnemy"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AWallEnemy);
+	UFunction* Z_Construct_UFunction_AWinTrigger_OnBeginOverlap()
+	{
+		struct WinTrigger_eventOnBeginOverlap_Parms
+		{
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			int32 OtherBodyIndex;
+			bool bFromSweep;
+			FHitResult SweepResult;
+		};
+		UObject* Outer=Z_Construct_UClass_AWinTrigger();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnBeginOverlap"), RF_Public|RF_Transient|RF_Native) UFunction(FObjectInitializer(), NULL, 0x00420401, 65535, sizeof(WinTrigger_eventOnBeginOverlap_Parms));
+			UProperty* NewProp_SweepResult = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("SweepResult"), RF_Public|RF_Transient|RF_Native) UStructProperty(CPP_PROPERTY_BASE(SweepResult, WinTrigger_eventOnBeginOverlap_Parms), 0x0000008008000182, Z_Construct_UScriptStruct_FHitResult());
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(bFromSweep, WinTrigger_eventOnBeginOverlap_Parms, bool);
+			UProperty* NewProp_bFromSweep = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("bFromSweep"), RF_Public|RF_Transient|RF_Native) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bFromSweep, WinTrigger_eventOnBeginOverlap_Parms), 0x0000000000000080, CPP_BOOL_PROPERTY_BITMASK(bFromSweep, WinTrigger_eventOnBeginOverlap_Parms), sizeof(bool), true);
+			UProperty* NewProp_OtherBodyIndex = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherBodyIndex"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(OtherBodyIndex, WinTrigger_eventOnBeginOverlap_Parms), 0x0000000000000080);
+			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, WinTrigger_eventOnBeginOverlap_Parms), 0x0000000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
+			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, WinTrigger_eventOnBeginOverlap_Parms), 0x0000000000000080, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("WinTrigger.h"));
+			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AWinTrigger_NoRegister()
+	{
+		return AWinTrigger::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AWinTrigger()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_StarFox();
+			OuterClass = AWinTrigger::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AWinTrigger_OnBeginOverlap());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_pwc = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("pwc"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(pwc, AWinTrigger), 0x0000000000000001, Z_Construct_UClass_APawnWithCamera_NoRegister());
+				UProperty* NewProp_Trigger = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Trigger"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Trigger, AWinTrigger), 0x0000000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMap(Z_Construct_UFunction_AWinTrigger_OnBeginOverlap()); // 1282453104
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("WinTrigger.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("WinTrigger.h"));
+				MetaData->SetValue(NewProp_pwc, TEXT("Category"), TEXT("WinTrigger"));
+				MetaData->SetValue(NewProp_pwc, TEXT("ModuleRelativePath"), TEXT("WinTrigger.h"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("Category"), TEXT("WinTrigger"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_Trigger, TEXT("ModuleRelativePath"), TEXT("WinTrigger.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AWinTrigger(Z_Construct_UClass_AWinTrigger, TEXT("AWinTrigger"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AWinTrigger);
 	UPackage* Z_Construct_UPackage_StarFox()
 	{
 		static UPackage* ReturnPackage = NULL;
 		if (!ReturnPackage)
 		{
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/StarFox")), false, false));
-			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
+			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x81C447A8;
-			Guid.B = 0xD0F9FE3A;
+			Guid.A = 0x4D02D07D;
+			Guid.B = 0xF1898C3C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

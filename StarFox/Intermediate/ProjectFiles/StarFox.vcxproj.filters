@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\StarFox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{082CEBE5-4D20-4F5F-A084-4EB268C47BB4}</UniqueIdentifier>
+      <UniqueIdentifier>{7E0DC766-2CA3-4818-ACFE-BBC36EFB4173}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\StarFox.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{63A78E78-A795-4845-BF29-30285E3E241B}</UniqueIdentifier>
+      <UniqueIdentifier>{1894D9BF-2C2C-4D9B-84D1-BFC6D04FC994}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\StarFox">
-      <UniqueIdentifier>{4220F5E9-C3F3-48BE-9F70-300FDF38D398}</UniqueIdentifier>
+      <UniqueIdentifier>{1A192105-2418-42E0-BF94-42BC7F083ED6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\StarFox\BoxDestroy.cpp">
+      <Filter>Source\StarFox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFox\BoxDestroy.h">
+      <Filter>Source\StarFox</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\StarFox\Bullet.cpp">
       <Filter>Source\StarFox</Filter>
     </ClCompile>
@@ -68,20 +74,20 @@
     <ClInclude Include="..\..\Source\StarFox\StarFoxGameMode.h">
       <Filter>Source\StarFox</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\StarFox\BoxDestroy.h">
+    <ClCompile Include="..\..\Source\StarFox\WallEnemy.cpp">
       <Filter>Source\StarFox</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClInclude Include="..\..\Source\StarFox\WallEnemy.h">
       <Filter>Source\StarFox</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\StarFox\BoxDestroy.cpp">
+    <ClInclude Include="..\..\Source\StarFox\WinTrigger.h">
       <Filter>Source\StarFox</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\StarFox\WallEnemy.cpp">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\StarFox\WinTrigger.cpp">
       <Filter>Source\StarFox</Filter>
     </ClCompile>
   </ItemGroup>

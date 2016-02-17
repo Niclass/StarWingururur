@@ -1,0 +1,1624 @@
+﻿[2016.02.16-23.03.48:519][  0]Log file open, 02/17/16 00:03:48
+[2016.02.16-23.03.48:519][  0]LogInit:Display: Running engine for game: StarFox
+[2016.02.16-23.03.48:519][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.16-23.03.48:519][  0]LogInit:Display: RandInit(1170329333) SRandInit(1170329335).
+[2016.02.16-23.03.48:519][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.16-23.03.48:519][  0]LogStats: Stats thread started at 0.381370
+[2016.02.16-23.03.48:519][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-StarFox.dll
+[2016.02.16-23.03.49:984][  0]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox Development Win64 -project="F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.02.16-23.03.56:507][  0]@progress push 5%
+[2016.02.16-23.03.57:410][  0]Parsing headers for StarFoxEditor
+[2016.02.16-23.03.57:511][  0]  Running UnrealHeaderTool "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" "F:\Download\starwing\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.16-23.04.03:729][  0]Reflection code generated for StarFoxEditor in 6,2566192 seconds
+[2016.02.16-23.04.04:031][  0]@progress pop
+[2016.02.16-23.04.07:242][  0]Performing 13 actions (4 in parallel)
+[2016.02.16-23.04.07:242][  0][2/13] Resource PCLaunch.rc
+[2016.02.16-23.04.07:242][  0][3/13] Resource ModuleVersionResource.rc.inl
+[2016.02.16-23.04.07:443][  0]PCH.StarFox.h.cpp
+[2016.02.16-23.04.29:309][  0]ring.cpp
+[2016.02.16-23.04.29:309][  0]StarFox.generated.cpp
+[2016.02.16-23.04.29:310][  0]StarFoxGameMode.cpp
+[2016.02.16-23.04.29:410][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47): warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.04.29:410][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.04.29:411][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.04.29:411][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.04.29:411][  0]BoxDestroy.cpp
+[2016.02.16-23.04.29:412][  0]F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(47): warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.04.29:412][  0]F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(115): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.04.29:412][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.04.29:413][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.04.29:514][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47): warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.04.29:514][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.04.29:514][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.04.29:515][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.04.29:816][  0]WallEnemy.cpp
+[2016.02.16-23.04.29:916][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47): warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.04.29:916][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.04.29:916][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.04.29:916][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.04.29:916][  0]PawnWithCamera.cpp
+[2016.02.16-23.04.30:017][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47): warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.04.30:017][  0]f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.04.30:017][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.04.30:017][  0]C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.04.30:018][  0]Bullet.cpp
+[2016.02.16-23.04.30:219][  0]StarFox.cpp
+[2016.02.16-23.04.30:219][  0]Crosshair.cpp
+[2016.02.16-23.04.30:621][  0][13/13] Link UE4Editor-StarFox.dll
+[2016.02.16-23.04.31:023][  0]   Creating library F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox.lib and object F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox.exp
+[2016.02.16-23.04.31:624][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.04.31:724][  0]Total build time: 41,62 seconds
+[2016.02.16-23.04.32:276][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.16-23.04.32:276][  0]LogInit: API Version: 2758231
+[2016.02.16-23.04.32:276][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.02.16-23.04.32:276][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.16-23.04.32:276][  0]LogInit: Build Configuration: Development
+[2016.02.16-23.04.32:276][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.16-23.04.32:276][  0]LogInit: Command line:  
+[2016.02.16-23.04.32:276][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.16-23.04.32:276][  0]LogInit: Rocket: 1
+[2016.02.16-23.04.32:292][  0]LogInit: Using libcurl 7.41.0
+[2016.02.16-23.04.32:292][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.16-23.04.32:292][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.16-23.04.32:292][  0]LogInit:  - other features:
+[2016.02.16-23.04.32:292][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.16-23.04.32:292][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.16-23.04.32:292][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.16-23.04.32:292][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.16-23.04.32:292][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.16-23.04.32:294][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.16-23.04.32:294][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.16-23.04.32:294][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.16-23.04.32:294][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.16-23.04.32:294][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.16-23.04.32:318][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.16-23.04.32:341][  0]LogInit: Object subsystem initialized
+[2016.02.16-23.04.32:358][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.16-23.04.32:358][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.16-23.04.32:368][  0]LogInit: Computer: DESKTOP-6LQ70UE
+[2016.02.16-23.04.32:368][  0]LogInit: User: AxelH
+[2016.02.16-23.04.32:368][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.16-23.04.32:368][  0]LogInit: High frequency timer resolution =3.435888 MHz
+[2016.02.16-23.04.32:368][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.02.16-23.04.32:369][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.04.32:369][  0]LogMemory: Process Physical Memory: 59.16 MB used, 59.16 MB peak
+[2016.02.16-23.04.32:369][  0]LogMemory: Process Virtual Memory: 59.05 MB used, 59.05 MB peak
+[2016.02.16-23.04.32:369][  0]LogMemory: Physical Memory: 3980.63 MB used, 8144.43 MB total
+[2016.02.16-23.04.32:369][  0]LogMemory: Virtual Memory: 413.18 MB used, 134217728.00 MB total
+[2016.02.16-23.04.32:485][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.16-23.04.32:932][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.02.16-23.04.32:932][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 4072MB of shared system memory, 1 output[s]
+[2016.02.16-23.04.32:935][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.16-23.04.32:935][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4072MB of shared system memory, 0 output[s]
+[2016.02.16-23.04.32:935][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.16-23.04.32:942][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.16-23.04.32:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.16-23.04.32:955][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.16-23.04.32:991][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (F:/Download/starwing/StarWingururur/StarFox/Intermediate/Shaders/WorkingDirectory/8508/).
+[2016.02.16-23.04.32:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AxelH/AppData/Local/Temp/UnrealShaderWorkingDir/70339A0F4B45BE5D7CB7DF973896BFE8/'.
+[2016.02.16-23.04.32:992][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.16-23.04.33:898][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.16-23.04.33:902][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.16-23.04.33:908][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.16-23.04.33:914][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.16-23.04.33:919][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.16-23.04.33:924][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.16-23.04.33:928][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.16-23.04.33:931][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.16-23.04.33:934][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.16-23.04.33:938][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.16-23.04.33:943][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.16-23.04.33:950][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.16-23.04.33:950][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.16-23.04.33:951][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.16-23.04.33:976][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.16-23.04.33:979][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.16-23.04.33:982][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.16-23.04.33:986][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.16-23.04.33:986][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.16-23.04.34:126][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache: Loaded boot cache 0.25s 41MB C:/Users/AxelH/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AxelH/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Download/starwing/StarWingururur/StarFox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Download/starwing/StarWingururur/StarFox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.16-23.04.34:376][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.16-23.04.34:439][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.16-23.04.34:451][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AxelH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.16-23.04.35:215][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.16-23.04.35:225][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.16-23.04.35:415][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.16-23.04.35:415][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.16-23.04.35:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.16-23.04.37:859][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.16-23.04.38:035][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2016.02.16-23.04.38:332][  0]SourceControl: Info Source control is disabled
+[2016.02.16-23.04.38:374][  0]SourceControl: Info Source control is disabled
+[2016.02.16-23.04.38:394][  0]SourceControl: Info Source control is disabled
+[2016.02.16-23.04.38:410][  0]SourceControl: Info Source control is disabled
+[2016.02.16-23.04.38:783][  0]LogObj: 28720 objects as part of root set at end of initial load.
+[2016.02.16-23.04.38:783][  0]LogUObjectAllocator: 6137904 out of 0 bytes used by permanent object pool.
+[2016.02.16-23.04.38:879][  0]LogEngine: Initializing Engine...
+[2016.02.16-23.04.38:883][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.16-23.04.38:887][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.16-23.04.39:039][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.16-23.04.39:060][  0]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.04.39:072][  0]LogInit: FAudioDevice initialized.
+[2016.02.16-23.04.39:094][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/AxelH/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.16-23.04.39:097][  0]LogInit: Texture streaming: Enabled
+[2016.02.16-23.04.39:105][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.16-23.04.39:106][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.16-23.04.39:106][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a4f216174f906a18aa97f0b8354f8976|8e266f90fcd94ad2a2a68606efca8cb8|a8b9c902-8045-4965-8de3-26082bbcc6c0
+[2016.02.16-23.04.39:106][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.16-23.04.39:118][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.16-23.04.39:150][  0]LogInit: Transaction tracking system initialized
+[2016.02.16-23.04.39:281][  0]BlueprintLog: New page: Editor Load
+[2016.02.16-23.04.39:763][  0]LocalizationService: Info Localization service is disabled
+[2016.02.16-23.04.39:951][  0]LogConsoleResponse:Display: 
+[2016.02.16-23.04.40:088][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.16-23.04.40:196][  0]LogFileCache: Scanning file cache for directory 'F:/Download/starwing/StarWingururur/StarFox/Content/' took 0.01s
+[2016.02.16-23.04.40:196][  0]SourceControl: Info Source control is disabled
+[2016.02.16-23.04.40:198][  0]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.04.40:199][  0]LogEditorServer:Warning: Can't find file 'F:/Download/starwing/StarWingururur/StarFox/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.02.16-23.04.40:199][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.04.40:245][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.842ms to complete.
+[2016.02.16-23.04.40:246][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.048
+[2016.02.16-23.04.40:438][  0]LogCollectionManager: Loaded 0 collections in 0.002883 seconds
+[2016.02.16-23.04.40:498][  0]LogFileCache: Scanning file cache for directory 'F:/Download/starwing/StarWingururur/StarFox/Saved/Collections/' took 0.01s
+[2016.02.16-23.04.40:498][  0]LogFileCache: Scanning file cache for directory 'F:/Download/starwing/StarWingururur/StarFox/Content/Developers/AxelH/Collections/' took 0.01s
+[2016.02.16-23.04.40:498][  0]LogFileCache: Scanning file cache for directory 'F:/Download/starwing/StarWingururur/StarFox/Content/Collections/' took 0.01s
+[2016.02.16-23.04.40:498][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.16-23.04.40:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 1900 classes and 340 folders.
+[2016.02.16-23.04.40:526][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.16-23.04.40:731][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.02.16-23.04.40:743][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.02.16-23.04.40:815][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.16-23.04.40:835][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.16-23.04.40:861][  0]LogLoad: Full Startup: 53.53 seconds (BP compile: 0.04 seconds)
+[2016.02.16-23.04.40:875][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.16-23.04.40:975][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.16-23.04.41:166][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.16-23.04.41:306][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.16-23.04.41:617][  2]LogAssetRegistry: Asset discovery search completed in 3.5947 seconds
+[2016.02.16-23.04.41:618][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2016.02.16-23.04.48:631][579]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.04.48:695][579]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.04.48:695][579]LightingResults: New page: Lighting Build
+[2016.02.16-23.04.48:701][579]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0010 seconds. Added 5 classes and 0 folders.
+[2016.02.16-23.04.48:720][579]LoadErrors: New page: Loading map: LevelOne.umap
+[2016.02.16-23.04.48:724][579]MapCheck: New page: Map Check
+[2016.02.16-23.04.48:724][579]LightingResults: New page: Lighting Build
+[2016.02.16-23.04.48:745][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299EC7E3B00
+[2016.02.16-23.04.48:773][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.04.48:804][579]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.04.48:849][579]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.205ms to complete.
+[2016.02.16-23.04.48:849][579]LogFileHelpers: Loading map 'LevelOne' took 0.157
+[2016.02.16-23.04.53:386][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.04.54:859][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.05.02:281][102]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.05.40:286][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.05.45:017][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.05.45:337][838]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.06.23:790][294]Cmd: DELETE
+[2016.02.16-23.06.23:790][294]Cmd: ACTOR DELETE
+[2016.02.16-23.06.23:799][294]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.06.23:813][294]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.02.16-23.06.28:838][891]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.06.38:929][ 39]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP)
+[2016.02.16-23.06.46:767][950]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP)
+[2016.02.16-23.06.50:526][393]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP)
+[2016.02.16-23.06.51:049][454]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP)
+[2016.02.16-23.06.52:411][613]Cmd: EDIT COPY
+[2016.02.16-23.06.52:643][640]Cmd: EDIT PASTE
+[2016.02.16-23.06.59:268][423]Cmd: EDIT COPY
+[2016.02.16-23.06.59:562][458]Cmd: EDIT PASTE
+[2016.02.16-23.07.13:902][868]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP4)
+[2016.02.16-23.07.17:494][274]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP5)
+[2016.02.16-23.07.20:782][658]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP6)
+[2016.02.16-23.07.27:745][354]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP7)
+[2016.02.16-23.07.31:186][756]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP8)
+[2016.02.16-23.07.34:876][163]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP9)
+[2016.02.16-23.07.38:094][424]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP12)
+[2016.02.16-23.07.45:752][282]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP11)
+[2016.02.16-23.07.53:618][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.07.53:618][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.07.53:620][155]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:07:53 AM)
+[2016.02.16-23.07.53:621][155]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.07.53:640][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018726s)
+[2016.02.16-23.07.53:641][155]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.07.53:641][155]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2016.02.16-23.07.53:641][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.019720s)
+[2016.02.16-23.07.53:657][155]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.07.53:664][155]LogInit: FAudioDevice initialized.
+[2016.02.16-23.07.53:765][155]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.07.53:779][155]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.07.53
+[2016.02.16-23.07.53:779][155]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.07.53:780][155]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.07.53:785][155]LogWorld: Bringing up level for play took: 0.012187
+[2016.02.16-23.07.53:805][155]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.391
+[2016.02.16-23.07.53:805][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.01:174][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.01:223][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.01:271][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299903E5940
+[2016.02.16-23.08.02:136][134]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.08.02:875][217]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP)
+[2016.02.16-23.08.03:554][294]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.08.07:318][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.07:318][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.08.07:318][718]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:08:07 AM)
+[2016.02.16-23.08.07:319][718]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.08.07:331][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013276s)
+[2016.02.16-23.08.07:333][718]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.08.07:333][718]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2016.02.16-23.08.07:333][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.014471s)
+[2016.02.16-23.08.07:348][718]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.08.07:353][718]LogInit: FAudioDevice initialized.
+[2016.02.16-23.08.07:384][718]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.08.07:390][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.08.07
+[2016.02.16-23.08.07:390][718]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.07:390][718]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.07:390][718]LogWorld: Bringing up level for play took: 0.005584
+[2016.02.16-23.08.07:392][718]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.803
+[2016.02.16-23.08.07:392][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.14:816][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.14:864][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.14:898][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299ADA55620
+[2016.02.16-23.08.17:237][862]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.08.18:399][999]Cmd: EDIT COPY
+[2016.02.16-23.08.19:133][ 87]Cmd: EDIT PASTE
+[2016.02.16-23.08.25:890][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.25:890][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.08.25:890][733]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:08:25 AM)
+[2016.02.16-23.08.25:891][733]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.08.25:905][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014743s)
+[2016.02.16-23.08.25:906][733]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.08.25:906][733]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2016.02.16-23.08.25:906][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.015840s)
+[2016.02.16-23.08.25:920][733]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.08.25:925][733]LogInit: FAudioDevice initialized.
+[2016.02.16-23.08.25:961][733]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.08.25:968][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.08.25
+[2016.02.16-23.08.25:968][733]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.25:968][733]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.25:969][733]LogWorld: Bringing up level for play took: 0.006192
+[2016.02.16-23.08.25:972][733]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.223
+[2016.02.16-23.08.25:972][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.37:797][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.37:843][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.37:855][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DF048220
+[2016.02.16-23.08.41:411][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.41:411][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.08.41:411][551]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:08:41 AM)
+[2016.02.16-23.08.41:412][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.08.41:425][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013226s)
+[2016.02.16-23.08.41:425][551]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.08.41:425][551]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2016.02.16-23.08.41:425][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.014165s)
+[2016.02.16-23.08.41:440][551]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.08.41:447][551]LogInit: FAudioDevice initialized.
+[2016.02.16-23.08.41:482][551]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.08.41:489][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.08.41
+[2016.02.16-23.08.41:489][551]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.41:489][551]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.41:489][551]LogWorld: Bringing up level for play took: 0.005826
+[2016.02.16-23.08.41:490][551]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.705
+[2016.02.16-23.08.41:491][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.46:097][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.46:140][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.46:174][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002999C9625C0
+[2016.02.16-23.08.48:608][390]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.08.54:297][ 64]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.08.57:999][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.08.57:999][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.08.57:999][487]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:08:57 AM)
+[2016.02.16-23.08.57:999][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.08.58:010][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010482s)
+[2016.02.16-23.08.58:010][487]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.08.58:010][487]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2016.02.16-23.08.58:010][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.011209s)
+[2016.02.16-23.08.58:026][487]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.08.58:031][487]LogInit: FAudioDevice initialized.
+[2016.02.16-23.08.58:066][487]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.08.58:072][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.08.58
+[2016.02.16-23.08.58:072][487]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.58:072][487]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.08.58:073][487]LogWorld: Bringing up level for play took: 0.005839
+[2016.02.16-23.08.58:074][487]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.121
+[2016.02.16-23.08.58:074][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.09.09:832][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.09.09:873][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.09.09:908][894]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002998F78ED40
+[2016.02.16-23.09.24:836][590]Cmd: EDIT COPY
+[2016.02.16-23.09.25:186][619]Cmd: EDIT PASTE
+[2016.02.16-23.09.29:691][153]Cmd: EDIT PASTE
+[2016.02.16-23.09.31:968][418]Cmd: EDIT PASTE
+[2016.02.16-23.09.35:641][852]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP13)
+[2016.02.16-23.09.38:590][199]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP14)
+[2016.02.16-23.09.44:474][874]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP15)
+[2016.02.16-23.09.52:772][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.09.52:772][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.09.52:772][823]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:09:52 AM)
+[2016.02.16-23.09.52:772][823]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.09.52:787][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015097s)
+[2016.02.16-23.09.52:788][823]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.09.52:788][823]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2016.02.16-23.09.52:788][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.016023s)
+[2016.02.16-23.09.52:804][823]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.09.52:808][823]LogInit: FAudioDevice initialized.
+[2016.02.16-23.09.52:843][823]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.09.52:850][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.09.52
+[2016.02.16-23.09.52:850][823]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.09.52:851][823]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.09.52:851][823]LogWorld: Bringing up level for play took: 0.007553
+[2016.02.16-23.09.52:852][823]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.657
+[2016.02.16-23.09.52:852][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.10.09:555][822]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.10.09:560][823]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.10.09:561][823]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.10.09:561][823]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.10.09:576][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299CF16A5C0
+[2016.02.16-23.10.09:578][823]Cmd: MEM
+[2016.02.16-23.10.09:588][823]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.10.09:588][823]LogMemory: Process Physical Memory: 824.16 MB used, 824.66 MB peak
+[2016.02.16-23.10.09:588][823]LogMemory: Process Virtual Memory: 1421.58 MB used, 1506.95 MB peak
+[2016.02.16-23.10.09:588][823]LogMemory: Physical Memory: 4739.59 MB used, 8144.43 MB total
+[2016.02.16-23.10.09:588][823]LogMemory: Virtual Memory: 2228.62 MB used, 134217728.00 MB total
+[2016.02.16-23.10.09:588][823]LogMemory: 
+[2016.02.16-23.10.09:588][823]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.10.09:630][823]LogTexture:Display: Building textures: sadfox (BGRA8)
+[2016.02.16-23.10.09:994][823]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.10.09:995][823]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.10.09:996][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.10.09
+[2016.02.16-23.10.09:996][823]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.10.09:996][823]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.10.09:997][823]LogWorld: Bringing up level for play took: 0.000814
+[2016.02.16-23.10.09:997][823]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.10.12:782][146]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve LevelOne.umap.
+[2016.02.16-23.10.12:849][146]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve LevelOne.umap.
+[2016.02.16-23.10.12:849][146]LogNet: Browse: /Game/Maps/LevelOne
+[2016.02.16-23.10.12:849][146]LogLoad: LoadMap: /Game/Maps/LevelOne
+[2016.02.16-23.10.12:862][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299E23B4720
+[2016.02.16-23.10.12:863][146]Cmd: MEM
+[2016.02.16-23.10.12:872][146]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.10.12:872][146]LogMemory: Process Physical Memory: 944.83 MB used, 951.54 MB peak
+[2016.02.16-23.10.12:872][146]LogMemory: Process Virtual Memory: 1704.80 MB used, 1712.73 MB peak
+[2016.02.16-23.10.12:872][146]LogMemory: Physical Memory: 4846.03 MB used, 8144.43 MB total
+[2016.02.16-23.10.12:872][146]LogMemory: Virtual Memory: 2428.74 MB used, 134217728.00 MB total
+[2016.02.16-23.10.12:872][146]LogMemory: 
+[2016.02.16-23.10.12:872][146]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.10.12:872][146]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.10.12:885][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012024s)
+[2016.02.16-23.10.12:885][146]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.10.12:885][146]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2016.02.16-23.10.12:885][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.012835s)
+[2016.02.16-23.10.12:885][146]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.10.12:892][146]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.10.12
+[2016.02.16-23.10.12:892][146]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.10.12:892][146]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.10.12:892][146]LogWorld: Bringing up level for play took: 0.006379
+[2016.02.16-23.10.29:068][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.10.29:111][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.10.29:145][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299CF16AB60
+[2016.02.16-23.10.30:127][198]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.02.16-23.10.30:920][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.16-23.10.35:675][839]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP15)
+[2016.02.16-23.10.36:622][948]Cmd: EDIT PASTE
+[2016.02.16-23.10.50:779][571]Cmd: EDIT PASTE
+[2016.02.16-23.10.52:252][736]Cmd: TRANSACTION UNDO
+[2016.02.16-23.10.52:252][736]LogEditorTransaction: Undo Paste
+[2016.02.16-23.10.53:078][811]Cmd: EDIT COPY
+[2016.02.16-23.10.53:313][839]Cmd: EDIT PASTE
+[2016.02.16-23.11.23:977][136]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.16-23.11.27:607][530]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.16-23.11.31:894][990]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.11.36:953][574]Cmd: EDIT COPY
+[2016.02.16-23.11.37:265][610]Cmd: EDIT PASTE
+[2016.02.16-23.11.44:353][443]Cmd: EDIT COPY
+[2016.02.16-23.11.44:595][471]Cmd: EDIT PASTE
+[2016.02.16-23.11.50:858][207]Cmd: EDIT PASTE
+[2016.02.16-23.11.56:855][913]Cmd: EDIT PASTE
+[2016.02.16-23.12.09:162][369]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP11)
+[2016.02.16-23.12.10:297][499]Cmd: DELETE
+[2016.02.16-23.12.10:297][499]Cmd: ACTOR DELETE
+[2016.02.16-23.12.10:297][499]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.10:309][499]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2016.02.16-23.12.10:981][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.12.11:636][652]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP16)
+[2016.02.16-23.12.11:919][680]Cmd: DELETE
+[2016.02.16-23.12.11:919][680]Cmd: ACTOR DELETE
+[2016.02.16-23.12.11:919][680]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.11:928][680]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.02.16-23.12.12:349][730]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP21)
+[2016.02.16-23.12.12:576][753]Cmd: DELETE
+[2016.02.16-23.12.12:576][753]Cmd: ACTOR DELETE
+[2016.02.16-23.12.12:577][753]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.12:587][753]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.12.17:449][307]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.12.18:663][446]Cmd: EDIT COPY
+[2016.02.16-23.12.18:953][480]Cmd: EDIT PASTE
+[2016.02.16-23.12.29:164][487]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.12.29:972][577]Cmd: EDIT COPY
+[2016.02.16-23.12.30:172][598]Cmd: EDIT PASTE
+[2016.02.16-23.12.38:282][492]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP)
+[2016.02.16-23.12.38:756][535]Cmd: DELETE
+[2016.02.16-23.12.38:756][535]Cmd: ACTOR DELETE
+[2016.02.16-23.12.38:757][535]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.38:767][535]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.02.16-23.12.39:164][575]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP5)
+[2016.02.16-23.12.39:405][599]Cmd: DELETE
+[2016.02.16-23.12.39:405][599]Cmd: ACTOR DELETE
+[2016.02.16-23.12.39:406][599]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.39:414][599]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.02.16-23.12.39:720][635]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP4)
+[2016.02.16-23.12.39:888][650]Cmd: DELETE
+[2016.02.16-23.12.39:888][650]Cmd: ACTOR DELETE
+[2016.02.16-23.12.39:889][650]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.39:897][650]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.02.16-23.12.40:246][691]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP8)
+[2016.02.16-23.12.40:389][703]Cmd: DELETE
+[2016.02.16-23.12.40:389][703]Cmd: ACTOR DELETE
+[2016.02.16-23.12.40:389][703]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.40:398][703]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.02.16-23.12.40:771][747]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP10)
+[2016.02.16-23.12.40:939][762]Cmd: DELETE
+[2016.02.16-23.12.40:939][762]Cmd: ACTOR DELETE
+[2016.02.16-23.12.40:940][762]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.40:951][762]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.12.41:423][818]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP9)
+[2016.02.16-23.12.41:533][826]Cmd: DELETE
+[2016.02.16-23.12.41:533][826]Cmd: ACTOR DELETE
+[2016.02.16-23.12.41:534][826]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.41:544][826]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.12.41:864][864]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP6)
+[2016.02.16-23.12.42:181][897]Cmd: DELETE
+[2016.02.16-23.12.42:181][897]Cmd: ACTOR DELETE
+[2016.02.16-23.12.42:181][897]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.42:191][897]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.12.42:717][960]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP12)
+[2016.02.16-23.12.42:832][969]Cmd: DELETE
+[2016.02.16-23.12.42:832][969]Cmd: ACTOR DELETE
+[2016.02.16-23.12.42:833][969]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.12.42:843][969]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.13.25:277][870]Recompiling StarFox...
+[2016.02.16-23.13.25:277][870]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 2879 Win64 Development -editorrecompile -canskiplink "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket -2015]
+[2016.02.16-23.13.25:278][870]Warning: Starting HotReload took  0.0s.
+[2016.02.16-23.13.46:481][133]CompilerResultsLog: New page: Compilation - Feb 17, 2016, 1:13:46 AM
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Creating makefile for hot reloading StarFox (.uproject file is newer)
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info   Running UnrealHeaderTool "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" "F:\Download\starwing\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 9,3326764 seconds
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info ring.cpp
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info StarFoxGameMode.cpp
+[2016.02.16-23.13.46:483][133]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.13.46:483][133]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.16-23.13.46:483][133]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.13.46:483][133]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info [4/4] Link UE4Editor-StarFox-2879.dll
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info    Creating library F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-2879.lib and object F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-2879.exp
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.13.46:483][133]CompilerResultsLog: Info Total build time: 21,06 seconds
+[2016.02.16-23.13.46:483][133]LogMainFrame: MainFrame: Module compiling took 21.215 seconds
+[2016.02.16-23.13.46:525][133]LogHotReload: Re-instancing StarFoxGameMode after hot-reload.
+[2016.02.16-23.13.46:611][133]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0011 seconds. Added 7 classes and 2 folders.
+[2016.02.16-23.13.46:612][133]Warning: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2016.02.16-23.13.46:691][133]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 1901 classes and 342 folders.
+[2016.02.16-23.14.11:235][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.14.11:235][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.14.11:235][551]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:14:11 AM)
+[2016.02.16-23.14.11:235][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.14.11:252][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016560s)
+[2016.02.16-23.14.11:253][551]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.14.11:253][551]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2016.02.16-23.14.11:253][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.017734s)
+[2016.02.16-23.14.11:274][551]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.14.11:281][551]LogInit: FAudioDevice initialized.
+[2016.02.16-23.14.11:315][551]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.14.11:322][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.14.11
+[2016.02.16-23.14.11:323][551]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.11:323][551]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.11:324][551]LogWorld: Bringing up level for play took: 0.007370
+[2016.02.16-23.14.11:326][551]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.87
+[2016.02.16-23.14.11:326][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.14.19:747][550]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.14.19:755][551]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.14.19:755][551]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.14.19:755][551]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.14.19:772][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DE8B4C20
+[2016.02.16-23.14.19:775][551]Cmd: MEM
+[2016.02.16-23.14.19:787][551]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.14.19:787][551]LogMemory: Process Physical Memory: 988.83 MB used, 1010.20 MB peak
+[2016.02.16-23.14.19:787][551]LogMemory: Process Virtual Memory: 1579.05 MB used, 1712.73 MB peak
+[2016.02.16-23.14.19:787][551]LogMemory: Physical Memory: 5361.96 MB used, 8144.43 MB total
+[2016.02.16-23.14.19:787][551]LogMemory: Virtual Memory: 2465.07 MB used, 134217728.00 MB total
+[2016.02.16-23.14.19:787][551]LogMemory: 
+[2016.02.16-23.14.19:787][551]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.14.19:809][551]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.14.19:809][551]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.14.19:811][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.14.19
+[2016.02.16-23.14.19:811][551]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.19:811][551]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.19:811][551]LogWorld: Bringing up level for play took: 0.001193
+[2016.02.16-23.14.19:812][551]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.14.21:138][700]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve LevelOne.umap.
+[2016.02.16-23.14.21:220][700]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve LevelOne.umap.
+[2016.02.16-23.14.21:220][700]LogNet: Browse: /Game/Maps/LevelOne
+[2016.02.16-23.14.21:220][700]LogLoad: LoadMap: /Game/Maps/LevelOne
+[2016.02.16-23.14.21:233][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299C69107C0
+[2016.02.16-23.14.21:233][700]Cmd: MEM
+[2016.02.16-23.14.21:246][700]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.14.21:246][700]LogMemory: Process Physical Memory: 998.79 MB used, 1010.20 MB peak
+[2016.02.16-23.14.21:246][700]LogMemory: Process Virtual Memory: 1705.96 MB used, 1712.73 MB peak
+[2016.02.16-23.14.21:246][700]LogMemory: Physical Memory: 5363.40 MB used, 8144.43 MB total
+[2016.02.16-23.14.21:246][700]LogMemory: Virtual Memory: 2465.07 MB used, 134217728.00 MB total
+[2016.02.16-23.14.21:246][700]LogMemory: 
+[2016.02.16-23.14.21:246][700]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.14.21:246][700]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.14.21:263][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016481s)
+[2016.02.16-23.14.21:264][700]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.14.21:264][700]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2016.02.16-23.14.21:264][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.017412s)
+[2016.02.16-23.14.21:264][700]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.14.21:271][700]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.14.21
+[2016.02.16-23.14.21:271][700]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.21:271][700]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.21:272][700]LogWorld: Bringing up level for play took: 0.006693
+[2016.02.16-23.14.33:879][199]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.14.33:886][200]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.14.33:886][200]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.14.33:886][200]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.14.33:904][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299ADA568E0
+[2016.02.16-23.14.33:904][200]Cmd: MEM
+[2016.02.16-23.14.33:916][200]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.14.33:916][200]LogMemory: Process Physical Memory: 995.91 MB used, 1010.20 MB peak
+[2016.02.16-23.14.33:916][200]LogMemory: Process Virtual Memory: 1546.20 MB used, 1712.73 MB peak
+[2016.02.16-23.14.33:916][200]LogMemory: Physical Memory: 5383.03 MB used, 8144.43 MB total
+[2016.02.16-23.14.33:916][200]LogMemory: Virtual Memory: 2432.07 MB used, 134217728.00 MB total
+[2016.02.16-23.14.33:916][200]LogMemory: 
+[2016.02.16-23.14.33:916][200]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.14.33:933][200]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.14.33:933][200]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.14.33:935][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.14.33
+[2016.02.16-23.14.33:935][200]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.33:935][200]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.14.33:935][200]LogWorld: Bringing up level for play took: 0.000898
+[2016.02.16-23.14.33:936][200]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.14.42:223][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.14.42:253][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.14.42:269][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002998FA5BD80
+[2016.02.16-23.14.46:615][515]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP7)
+[2016.02.16-23.14.50:615][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.14.51:193][948]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP)
+[2016.02.16-23.14.53:393][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.14.54:059][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.14.54:545][287]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP3)
+[2016.02.16-23.14.57:653][538]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP7)
+[2016.02.16-23.15.07:433][458]Cmd: EDIT COPY
+[2016.02.16-23.15.07:737][476]Cmd: EDIT PASTE
+[2016.02.16-23.15.09:995][686]Cmd: EDIT PASTE
+[2016.02.16-23.15.13:292][ 21]Cmd: EDIT PASTE
+[2016.02.16-23.15.53:480][388]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP11)
+[2016.02.16-23.15.56:809][729]Cmd: TRANSACTION UNDO
+[2016.02.16-23.15.56:809][729]LogEditorTransaction: Undo Move Actors
+[2016.02.16-23.15.57:787][819]Cmd: EDIT COPY
+[2016.02.16-23.15.58:099][851]Cmd: EDIT PASTE
+[2016.02.16-23.16.12:153][238]Cmd: EDIT COPY
+[2016.02.16-23.16.12:618][290]Cmd: EDIT PASTE
+[2016.02.16-23.16.16:896][725]Cmd: EDIT PASTE
+[2016.02.16-23.16.31:697][120]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP12)
+[2016.02.16-23.16.32:908][246]Cmd: EDIT COPY
+[2016.02.16-23.16.33:233][279]Cmd: EDIT PASTE
+[2016.02.16-23.16.35:550][518]Cmd: TRANSACTION UNDO
+[2016.02.16-23.16.35:550][518]LogEditorTransaction: Undo Move Actors
+[2016.02.16-23.16.55:716][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.16.55:716][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.16.55:716][557]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:16:55 AM)
+[2016.02.16-23.16.55:716][557]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.16.55:731][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014340s)
+[2016.02.16-23.16.55:732][557]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.16.55:732][557]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2016.02.16-23.16.55:732][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.015605s)
+[2016.02.16-23.16.55:750][557]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.16.55:757][557]LogInit: FAudioDevice initialized.
+[2016.02.16-23.16.55:790][557]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.16.55:798][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.16.55
+[2016.02.16-23.16.55:798][557]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.16.55:798][557]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.16.55:799][557]LogWorld: Bringing up level for play took: 0.008292
+[2016.02.16-23.16.55:800][557]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.395
+[2016.02.16-23.16.55:800][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.17.04:186][556]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.17.04:192][557]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.17.04:192][557]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.17.04:193][557]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.17.04:209][557]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DE8B5D00
+[2016.02.16-23.17.04:211][557]Cmd: MEM
+[2016.02.16-23.17.04:224][557]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.17.04:224][557]LogMemory: Process Physical Memory: 1038.42 MB used, 1042.39 MB peak
+[2016.02.16-23.17.04:224][557]LogMemory: Process Virtual Memory: 1637.74 MB used, 1712.73 MB peak
+[2016.02.16-23.17.04:224][557]LogMemory: Physical Memory: 5809.26 MB used, 8144.43 MB total
+[2016.02.16-23.17.04:224][557]LogMemory: Virtual Memory: 2463.96 MB used, 134217728.00 MB total
+[2016.02.16-23.17.04:224][557]LogMemory: 
+[2016.02.16-23.17.04:224][557]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.17.04:240][557]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.17.04:241][557]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.17.04:242][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.17.04
+[2016.02.16-23.17.04:242][557]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.17.04:242][557]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.17.04:242][557]LogWorld: Bringing up level for play took: 0.000902
+[2016.02.16-23.17.04:243][557]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.17.05:201][662]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve LevelOne.umap.
+[2016.02.16-23.17.05:274][662]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve LevelOne.umap.
+[2016.02.16-23.17.05:274][662]LogNet: Browse: /Game/Maps/LevelOne
+[2016.02.16-23.17.05:274][662]LogLoad: LoadMap: /Game/Maps/LevelOne
+[2016.02.16-23.17.05:287][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029996CDC900
+[2016.02.16-23.17.05:287][662]Cmd: MEM
+[2016.02.16-23.17.05:300][662]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.17.05:300][662]LogMemory: Process Physical Memory: 1041.71 MB used, 1044.75 MB peak
+[2016.02.16-23.17.05:300][662]LogMemory: Process Virtual Memory: 1757.97 MB used, 1761.10 MB peak
+[2016.02.16-23.17.05:300][662]LogMemory: Physical Memory: 5813.09 MB used, 8144.43 MB total
+[2016.02.16-23.17.05:300][662]LogMemory: Virtual Memory: 2507.96 MB used, 134217728.00 MB total
+[2016.02.16-23.17.05:300][662]LogMemory: 
+[2016.02.16-23.17.05:300][662]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.17.05:300][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.17.05:313][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012991s)
+[2016.02.16-23.17.05:313][662]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.17.05:313][662]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2016.02.16-23.17.05:314][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.014325s)
+[2016.02.16-23.17.05:314][662]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.17.05:322][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.17.05
+[2016.02.16-23.17.05:322][662]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.17.05:322][662]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.17.05:322][662]LogWorld: Bringing up level for play took: 0.007095
+[2016.02.16-23.17.19:760][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.17.19:806][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.17.19:850][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029996F4ADE0
+[2016.02.16-23.17.23:404][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.16-23.17.23:915][810]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP4)
+[2016.02.16-23.17.31:489][655]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP9)
+[2016.02.16-23.17.32:477][765]Cmd: EDIT COPY
+[2016.02.16-23.17.32:737][794]Cmd: EDIT PASTE
+[2016.02.16-23.18.35:620][536]Cmd: EDIT COPY
+[2016.02.16-23.18.35:884][566]Cmd: EDIT PASTE
+[2016.02.16-23.18.43:080][414]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP24)
+[2016.02.16-23.18.47:176][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.18.47:567][932]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.18.51:053][340]Cmd: EDIT COPY
+[2016.02.16-23.18.51:365][377]Cmd: EDIT PASTE
+[2016.02.16-23.19.08:003][316]Cmd: EDIT COPY
+[2016.02.16-23.19.08:223][341]Cmd: EDIT PASTE
+[2016.02.16-23.19.15:870][241]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP24)
+[2016.02.16-23.19.16:173][272]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP24)
+[2016.02.16-23.19.18:160][503]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.19.20:015][716]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP26)
+[2016.02.16-23.19.28:299][659]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.19.38:163][828]Cmd: EDIT COPY
+[2016.02.16-23.19.38:425][858]Cmd: EDIT PASTE
+[2016.02.16-23.19.52:473][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.19.52:473][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.19.52:473][398]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:19:52 AM)
+[2016.02.16-23.19.52:473][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.19.52:487][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013557s)
+[2016.02.16-23.19.52:487][398]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.19.52:488][398]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2016.02.16-23.19.52:488][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.014925s)
+[2016.02.16-23.19.52:504][398]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.19.52:511][398]LogInit: FAudioDevice initialized.
+[2016.02.16-23.19.52:546][398]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.19.52:556][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.19.52
+[2016.02.16-23.19.52:557][398]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.19.52:557][398]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.19.52:558][398]LogWorld: Bringing up level for play took: 0.010612
+[2016.02.16-23.19.52:559][398]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.364
+[2016.02.16-23.19.52:559][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.20.13:424][897]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.20.13:432][898]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.20.13:432][898]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.20.13:432][898]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.20.13:445][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299C4BFA3E0
+[2016.02.16-23.20.13:447][898]Cmd: MEM
+[2016.02.16-23.20.13:457][898]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.20.13:457][898]LogMemory: Process Physical Memory: 507.96 MB used, 1048.02 MB peak
+[2016.02.16-23.20.13:457][898]LogMemory: Process Virtual Memory: 1666.77 MB used, 1761.29 MB peak
+[2016.02.16-23.20.13:457][898]LogMemory: Physical Memory: 5914.17 MB used, 8144.43 MB total
+[2016.02.16-23.20.13:457][898]LogMemory: Virtual Memory: 2496.99 MB used, 134217728.00 MB total
+[2016.02.16-23.20.13:457][898]LogMemory: 
+[2016.02.16-23.20.13:457][898]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.20.13:475][898]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.20.13:475][898]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.20.13:476][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.20.13
+[2016.02.16-23.20.13:476][898]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.20.13:477][898]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.20.13:477][898]LogWorld: Bringing up level for play took: 0.000884
+[2016.02.16-23.20.13:477][898]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.20.28:116][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.20.28:309][737]LogSavePackage: Save=151.597778ms
+[2016.02.16-23.20.28:309][737]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/LevelOneBE7A437B44B8F7F99CFBBB80FC33DDF7.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap'
+[2016.02.16-23.20.28:311][737]LogSavePackage: Total save time: 182.110999ms
+[2016.02.16-23.20.28:311][737]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap
+[2016.02.16-23.20.28:333][737]LogFileHelpers: Saving map 'LevelOne' took 0.271
+[2016.02.16-23.20.31:957][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.20.32:001][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.20.32:016][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029996E12520
+[2016.02.16-23.20.32:909][931]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.20.32:909][931]LightingResults: New page: Lighting Build
+[2016.02.16-23.20.32:929][931]LoadErrors: New page: Loading map: LevelOne.umap
+[2016.02.16-23.20.32:934][931]MapCheck: New page: Map Check
+[2016.02.16-23.20.32:934][931]LightingResults: New page: Lighting Build
+[2016.02.16-23.20.32:949][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002998F771260
+[2016.02.16-23.20.33:057][931]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.20.33:063][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.20.33:086][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.20.33:142][931]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.797ms to complete.
+[2016.02.16-23.20.33:143][931]LogFileHelpers: Loading map 'LevelOne' took 0.237
+[2016.02.16-23.21.04:766][684]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP17)
+[2016.02.16-23.21.05:439][760]Cmd: DELETE
+[2016.02.16-23.21.05:439][760]Cmd: ACTOR DELETE
+[2016.02.16-23.21.05:439][760]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.21.05:448][760]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.02.16-23.21.11:954][519]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.21.26:130][ 73]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.21.31:884][642]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Enemy)
+[2016.02.16-23.21.34:131][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.21.35:189][996]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP3)
+[2016.02.16-23.21.49:483][479]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP2)
+[2016.02.16-23.21.58:551][427]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP18)
+[2016.02.16-23.22.08:866][487]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP13)
+[2016.02.16-23.22.20:071][688]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP10)
+[2016.02.16-23.22.26:060][324]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP7)
+[2016.02.16-23.22.40:921][949]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP8)
+[2016.02.16-23.22.50:051][944]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP9)
+[2016.02.16-23.22.58:168][815]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP12)
+[2016.02.16-23.23.05:486][593]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP23)
+[2016.02.16-23.23.13:893][514]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP22)
+[2016.02.16-23.23.20:978][278]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP21)
+[2016.02.16-23.23.29:769][214]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP11)
+[2016.02.16-23.23.31:935][458]Cmd: DELETE
+[2016.02.16-23.23.31:935][458]Cmd: ACTOR DELETE
+[2016.02.16-23.23.31:936][458]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.23.31:949][458]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2016.02.16-23.23.32:585][534]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP16)
+[2016.02.16-23.23.32:678][541]Cmd: DELETE
+[2016.02.16-23.23.32:678][541]Cmd: ACTOR DELETE
+[2016.02.16-23.23.32:679][541]LogEditorActor: Deleted Actor: WallEnemyBP_C
+[2016.02.16-23.23.32:689][541]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.02.16-23.23.35:714][871]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP27)
+[2016.02.16-23.23.46:346][932]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP24)
+[2016.02.16-23.23.52:387][571]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.23.58:988][271]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP26)
+[2016.02.16-23.24.08:144][237]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP28)
+[2016.02.16-23.24.21:037][634]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP14)
+[2016.02.16-23.24.28:777][484]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP15)
+[2016.02.16-23.24.41:139][809]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP19)
+[2016.02.16-23.24.47:388][460]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP20)
+[2016.02.16-23.24.54:273][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.24.54:273][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.24.54:274][178]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:24:54 AM)
+[2016.02.16-23.24.54:274][178]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.24.54:289][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015615s)
+[2016.02.16-23.24.54:290][178]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.24.54:290][178]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2016.02.16-23.24.54:291][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.016883s)
+[2016.02.16-23.24.54:307][178]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.24.54:313][178]LogInit: FAudioDevice initialized.
+[2016.02.16-23.24.54:349][178]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.24.54:357][178]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.24.54
+[2016.02.16-23.24.54:357][178]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.24.54:357][178]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.24.54:358][178]LogWorld: Bringing up level for play took: 0.007725
+[2016.02.16-23.24.54:359][178]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.164
+[2016.02.16-23.24.54:359][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.25.10:815][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.25.10:860][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.25.10:897][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299A47313A0
+[2016.02.16-23.25.17:264][888]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP9)
+[2016.02.16-23.25.19:707][141]Cmd: EDIT COPY
+[2016.02.16-23.25.20:227][199]Cmd: EDIT PASTE
+[2016.02.16-23.25.27:732][ 53]Cmd: EDIT COPY
+[2016.02.16-23.25.27:984][ 74]Cmd: EDIT PASTE
+[2016.02.16-23.25.30:239][335]Cmd: EDIT PASTE
+[2016.02.16-23.25.32:254][568]Cmd: TRANSACTION UNDO
+[2016.02.16-23.25.32:254][568]LogEditorTransaction: Undo Move Actors
+[2016.02.16-23.25.34:607][822]Cmd: EDIT PASTE
+[2016.02.16-23.25.37:481][155]Cmd: EDIT PASTE
+[2016.02.16-23.25.40:690][528]Cmd: EDIT PASTE
+[2016.02.16-23.25.46:114][163]Cmd: EDIT COPY
+[2016.02.16-23.25.46:499][209]Cmd: EDIT PASTE
+[2016.02.16-23.25.48:635][456]Cmd: EDIT COPY
+[2016.02.16-23.25.48:938][491]Cmd: EDIT PASTE
+[2016.02.16-23.26.17:702][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.26.17:702][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.26.17:702][396]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:26:17 AM)
+[2016.02.16-23.26.17:702][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.26.17:717][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015148s)
+[2016.02.16-23.26.17:718][396]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.26.17:718][396]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2016.02.16-23.26.17:718][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.016274s)
+[2016.02.16-23.26.17:734][396]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.26.17:741][396]LogInit: FAudioDevice initialized.
+[2016.02.16-23.26.17:773][396]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.26.17:783][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.26.17
+[2016.02.16-23.26.17:783][396]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.26.17:783][396]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.26.17:784][396]LogWorld: Bringing up level for play took: 0.010093
+[2016.02.16-23.26.17:785][396]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.41
+[2016.02.16-23.26.17:786][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.26.33:586][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.26.33:635][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.26.33:655][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029996E11DA0
+[2016.02.16-23.26.38:352][322]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP13)
+[2016.02.16-23.26.39:053][379]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP)
+[2016.02.16-23.26.48:192][164]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.02.16-23.27.02:067][353]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2016.02.16-23.27.02:085][353]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.02.16-23.27.07:654][824]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP24)
+[2016.02.16-23.27.09:765][973]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP27)
+[2016.02.16-23.27.10:729][ 56]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.27.11:273][ 98]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP28)
+[2016.02.16-23.27.11:799][140]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP26)
+[2016.02.16-23.27.13:968][315]LogEditorViewport: Clicking on Actor (CTRL LMB): RingBP_C (RingBP3)
+[2016.02.16-23.27.14:998][404]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP25)
+[2016.02.16-23.27.21:685][976]LogEditorViewport: Clicking on Actor (CTRL LMB): WallEnemyBP_C (WallEnemyBP28)
+[2016.02.16-23.27.24:731][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.27.24:731][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.27.24:731][240]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:27:24 AM)
+[2016.02.16-23.27.24:731][240]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.27.24:744][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012868s)
+[2016.02.16-23.27.24:745][240]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.27.24:745][240]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2016.02.16-23.27.24:745][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.013659s)
+[2016.02.16-23.27.24:772][240]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.27.24:778][240]LogInit: FAudioDevice initialized.
+[2016.02.16-23.27.24:814][240]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.27.24:825][240]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.27.24
+[2016.02.16-23.27.24:825][240]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.27.24:826][240]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.27.24:826][240]LogWorld: Bringing up level for play took: 0.012006
+[2016.02.16-23.27.24:828][240]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.633
+[2016.02.16-23.27.24:828][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.27.45:824][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.27.45:881][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.27.45:915][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A010EB100
+[2016.02.16-23.27.49:301][478]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP4)
+[2016.02.16-23.27.51:856][692]LogEditorViewport: Clicking on Actor (LMB): RingBP_C (RingBP2)
+[2016.02.16-23.28.08:567][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.28.08:567][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.28.08:567][ 68]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:28:08 AM)
+[2016.02.16-23.28.08:568][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.28.08:581][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013463s)
+[2016.02.16-23.28.08:582][ 68]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.28.08:582][ 68]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2016.02.16-23.28.08:582][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.014667s)
+[2016.02.16-23.28.08:599][ 68]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.28.08:605][ 68]LogInit: FAudioDevice initialized.
+[2016.02.16-23.28.08:648][ 68]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.28.08:662][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.28.08
+[2016.02.16-23.28.08:662][ 68]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.08:662][ 68]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.08:663][ 68]LogWorld: Bringing up level for play took: 0.013232
+[2016.02.16-23.28.08:664][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.469
+[2016.02.16-23.28.08:664][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.28.19:856][ 67]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.28.19:864][ 68]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.28.19:864][ 68]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.28.19:867][ 68]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.28.19:881][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299A0C5A3E0
+[2016.02.16-23.28.19:883][ 68]Cmd: MEM
+[2016.02.16-23.28.19:894][ 68]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.28.19:894][ 68]LogMemory: Process Physical Memory: 688.32 MB used, 1048.02 MB peak
+[2016.02.16-23.28.19:894][ 68]LogMemory: Process Virtual Memory: 1908.35 MB used, 2000.20 MB peak
+[2016.02.16-23.28.19:894][ 68]LogMemory: Physical Memory: 6019.75 MB used, 8144.43 MB total
+[2016.02.16-23.28.19:894][ 68]LogMemory: Virtual Memory: 2766.06 MB used, 134217728.00 MB total
+[2016.02.16-23.28.19:894][ 68]LogMemory: 
+[2016.02.16-23.28.19:894][ 68]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.28.20:205][ 68]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.28.20:206][ 68]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.28.20:207][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.28.20
+[2016.02.16-23.28.20:207][ 68]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.20:207][ 68]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.20:207][ 68]LogWorld: Bringing up level for play took: 0.000773
+[2016.02.16-23.28.20:208][ 68]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.28.25:979][614]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve LevelOne.umap.
+[2016.02.16-23.28.26:037][614]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve LevelOne.umap.
+[2016.02.16-23.28.26:037][614]LogNet: Browse: /Game/Maps/LevelOne
+[2016.02.16-23.28.26:037][614]LogLoad: LoadMap: /Game/Maps/LevelOne
+[2016.02.16-23.28.26:055][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A00BC60C0
+[2016.02.16-23.28.26:055][614]Cmd: MEM
+[2016.02.16-23.28.26:067][614]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.28.26:067][614]LogMemory: Process Physical Memory: 788.75 MB used, 1048.02 MB peak
+[2016.02.16-23.28.26:067][614]LogMemory: Process Virtual Memory: 1927.20 MB used, 2126.21 MB peak
+[2016.02.16-23.28.26:067][614]LogMemory: Physical Memory: 6082.87 MB used, 8144.43 MB total
+[2016.02.16-23.28.26:067][614]LogMemory: Virtual Memory: 2852.18 MB used, 134217728.00 MB total
+[2016.02.16-23.28.26:067][614]LogMemory: 
+[2016.02.16-23.28.26:067][614]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.28.26:067][614]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.28.26:077][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010190s)
+[2016.02.16-23.28.26:077][614]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.28.26:078][614]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2016.02.16-23.28.26:078][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.010981s)
+[2016.02.16-23.28.26:078][614]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.28.26:087][614]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.28.26
+[2016.02.16-23.28.26:087][614]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.26:087][614]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.26:088][614]LogWorld: Bringing up level for play took: 0.009283
+[2016.02.16-23.28.38:857][613]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.28.38:864][614]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.28.38:865][614]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.28.38:867][614]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.28.38:884][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299A0C5AFC0
+[2016.02.16-23.28.38:884][614]Cmd: MEM
+[2016.02.16-23.28.38:895][614]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.28.38:895][614]LogMemory: Process Physical Memory: 777.16 MB used, 1048.02 MB peak
+[2016.02.16-23.28.38:895][614]LogMemory: Process Virtual Memory: 1918.85 MB used, 2126.21 MB peak
+[2016.02.16-23.28.38:895][614]LogMemory: Physical Memory: 6076.34 MB used, 8144.43 MB total
+[2016.02.16-23.28.38:895][614]LogMemory: Virtual Memory: 2820.18 MB used, 134217728.00 MB total
+[2016.02.16-23.28.38:895][614]LogMemory: 
+[2016.02.16-23.28.38:895][614]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.28.38:910][614]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.28.38:911][614]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.28.38:912][614]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.28.38
+[2016.02.16-23.28.38:912][614]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.38:912][614]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.28.38:912][614]LogWorld: Bringing up level for play took: 0.000769
+[2016.02.16-23.28.38:913][614]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.28.46:358][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.28.46:405][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.28.46:442][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029996E12160
+[2016.02.16-23.29.01:816][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.16-23.29.03:157][643]LogEditorViewport: Clicking on Actor (LMB): BoxDestroyBP_C (BoxDestroyBP)
+[2016.02.16-23.29.12:558][380]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.12:558][380]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.29.12:830][389]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.12:830][389]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.29.13:114][403]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.13:114][403]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.29.13:120][403]PIE:Warning: Warning AttachTo: '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2016.02.16-23.29.13:458][425]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.13:458][425]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.29.13:795][448]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.13:795][448]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.29.14:170][473]Cmd: TRANSACTION UNDO
+[2016.02.16-23.29.14:170][473]LogEditorTransaction: Undo Clicking on Actors
+[2016.02.16-23.30.13:699][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.30.13:699][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.30.13:699][694]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:30:13 AM)
+[2016.02.16-23.30.13:699][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.30.13:721][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021518s)
+[2016.02.16-23.30.13:722][694]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.30.13:722][694]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2016.02.16-23.30.13:722][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.023255s)
+[2016.02.16-23.30.13:748][694]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.30.13:753][694]LogInit: FAudioDevice initialized.
+[2016.02.16-23.30.13:787][694]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.30.13:797][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.30.13
+[2016.02.16-23.30.13:797][694]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.13:798][694]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.13:798][694]LogWorld: Bringing up level for play took: 0.009959
+[2016.02.16-23.30.13:800][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.395
+[2016.02.16-23.30.13:800][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.30.30:863][193]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.30.30:872][194]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.30.30:872][194]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.30.30:874][194]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.30.30:889][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299FE6705E0
+[2016.02.16-23.30.30:892][194]Cmd: MEM
+[2016.02.16-23.30.30:900][194]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.30.30:900][194]LogMemory: Process Physical Memory: 800.50 MB used, 1048.02 MB peak
+[2016.02.16-23.30.30:900][194]LogMemory: Process Virtual Memory: 1991.68 MB used, 2126.21 MB peak
+[2016.02.16-23.30.30:900][194]LogMemory: Physical Memory: 6122.03 MB used, 8144.43 MB total
+[2016.02.16-23.30.30:900][194]LogMemory: Virtual Memory: 2837.20 MB used, 134217728.00 MB total
+[2016.02.16-23.30.30:900][194]LogMemory: 
+[2016.02.16-23.30.30:900][194]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.30.30:916][194]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.30.30:917][194]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.30.30:918][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.30.30
+[2016.02.16-23.30.30:918][194]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.30:918][194]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.30:918][194]LogWorld: Bringing up level for play took: 0.000852
+[2016.02.16-23.30.30:919][194]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.30.33:558][475]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve LevelOne.umap.
+[2016.02.16-23.30.33:619][475]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve LevelOne.umap.
+[2016.02.16-23.30.33:619][475]LogNet: Browse: /Game/Maps/LevelOne
+[2016.02.16-23.30.33:619][475]LogLoad: LoadMap: /Game/Maps/LevelOne
+[2016.02.16-23.30.33:635][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002998B6FD620
+[2016.02.16-23.30.33:635][475]Cmd: MEM
+[2016.02.16-23.30.33:648][475]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.30.33:648][475]LogMemory: Process Physical Memory: 803.79 MB used, 1048.02 MB peak
+[2016.02.16-23.30.33:648][475]LogMemory: Process Virtual Memory: 2111.32 MB used, 2126.21 MB peak
+[2016.02.16-23.30.33:648][475]LogMemory: Physical Memory: 6126.79 MB used, 8144.43 MB total
+[2016.02.16-23.30.33:648][475]LogMemory: Virtual Memory: 2869.20 MB used, 134217728.00 MB total
+[2016.02.16-23.30.33:648][475]LogMemory: 
+[2016.02.16-23.30.33:648][475]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.30.33:648][475]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.30.33:663][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014877s)
+[2016.02.16-23.30.33:663][475]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.30.33:664][475]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2016.02.16-23.30.33:664][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.015665s)
+[2016.02.16-23.30.33:664][475]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.30.33:673][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.30.33
+[2016.02.16-23.30.33:673][475]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.33:673][475]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.33:674][475]LogWorld: Bringing up level for play took: 0.009345
+[2016.02.16-23.30.45:082][474]LogGameMode: ProcessServerTravel: /Game/Maps/GameOver
+[2016.02.16-23.30.45:087][475]LogEngine: Server switch level: /Game/Maps/GameOver
+[2016.02.16-23.30.45:087][475]LogNet: Browse: /Game/Maps/GameOver
+[2016.02.16-23.30.45:090][475]LogLoad: LoadMap: /Game/Maps/GameOver
+[2016.02.16-23.30.45:103][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002998B6FF600
+[2016.02.16-23.30.45:103][475]Cmd: MEM
+[2016.02.16-23.30.45:113][475]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.30.45:113][475]LogMemory: Process Physical Memory: 802.96 MB used, 1048.02 MB peak
+[2016.02.16-23.30.45:113][475]LogMemory: Process Virtual Memory: 1949.45 MB used, 2126.21 MB peak
+[2016.02.16-23.30.45:113][475]LogMemory: Physical Memory: 6132.66 MB used, 8144.43 MB total
+[2016.02.16-23.30.45:113][475]LogMemory: Virtual Memory: 2835.20 MB used, 134217728.00 MB total
+[2016.02.16-23.30.45:113][475]LogMemory: 
+[2016.02.16-23.30.45:113][475]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.30.45:131][475]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.30.45:132][475]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.30.45:134][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2016.02.17-00.30.45
+[2016.02.16-23.30.45:134][475]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.45:134][475]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.30.45:134][475]LogWorld: Bringing up level for play took: 0.001366
+[2016.02.16-23.30.45:135][475]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.30.46:819][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.30.46:864][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.30.46:897][654]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299A0C5A660
+[2016.02.16-23.30.52:161][998]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2016.02.16-23.30.52:177][998]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.02.16-23.31.30:165][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.31.30:330][648]LogSavePackage: Save=147.019928ms
+[2016.02.16-23.31.30:330][648]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/LevelOne6F7B7C71448F42545CAA459265420A9D.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap'
+[2016.02.16-23.31.30:332][648]LogSavePackage: Total save time: 155.667182ms
+[2016.02.16-23.31.30:332][648]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap
+[2016.02.16-23.31.30:362][648]LogFileHelpers: Saving map 'LevelOne' took 0.251
+[2016.02.16-23.32.03:453][882]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox Win64 Development -editorrecompile "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -invalidatemakefilesonly -rocket -2015
+[2016.02.16-23.32.03:855][882]Invalidating makefiles only in this run.
+[2016.02.16-23.32.03:990][882]Recompiling StarFox...
+[2016.02.16-23.32.03:990][882]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 9480 Win64 Development -editorrecompile -canskiplink "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket -2015]
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: New page: Compilation - Feb 17, 2016, 1:32:19 AM
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Creating makefile for hot reloading StarFox (no existing makefile)
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info   Running UnrealHeaderTool "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" "F:\Download\starwing\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 6,7430169 seconds
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info WinTrigger.cpp
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.16-23.32.19:524][882]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.32.19:524][882]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info [3/3] Link UE4Editor-StarFox-9480.dll
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info    Creating library F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-9480.lib and object F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-9480.exp
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.32.19:524][882]CompilerResultsLog: Info Total build time: 15,50 seconds
+[2016.02.16-23.32.19:524][882]LogMainFrame: MainFrame: Module compiling took 15.541 seconds
+[2016.02.16-23.32.19:567][882]LogClass: Could not find existing class WinTrigger in package /Script/StarFox for HotReload, assuming new class
+[2016.02.16-23.32.19:571][882]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0013 seconds. Added 8 classes and 2 folders.
+[2016.02.16-23.32.19:572][882]Warning: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2016.02.16-23.32.19:639][882]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 1902 classes and 342 folders.
+[2016.02.16-23.32.19:641][882]Warning: HotReload operation took 15.7s.
+[2016.02.16-23.32.19:866][882]LogVSAccessor:Warning: Couldn't goto line number '0' in 'F:/Download/starwing/StarWingururur/StarFox/Source/StarFox/WinTrigger.h'
+[2016.02.16-23.32.19:966][882]LogVSAccessor:Warning: Couldn't goto line number '0' in 'F:/Download/starwing/StarWingururur/StarFox/Source/StarFox/WinTrigger.cpp'
+[2016.02.16-23.32.19:978][882]LogHotReload: New module detected: UE4Editor-StarFox-9480.dll
+[2016.02.16-23.32.20:001][883]LogHotReload: Starting Hot-Reload from IDE
+[2016.02.16-23.32.20:133][883]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0010 seconds. Added 8 classes and 2 folders.
+[2016.02.16-23.32.20:134][883]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.02.16-23.32.20:145][883]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 1902 classes and 342 folders.
+[2016.02.16-23.34.57:580][419]Recompiling StarFox...
+[2016.02.16-23.34.57:581][419]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 7998 Win64 Development -editorrecompile -canskiplink "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket -2015]
+[2016.02.16-23.34.57:582][419]Warning: Starting HotReload took  0.0s.
+[2016.02.16-23.35.11:107][538]CompilerResultsLog: New page: Compilation - Feb 17, 2016, 1:35:11 AM
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info   Running UnrealHeaderTool "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" "F:\Download\starwing\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 7,8459909 seconds
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info WinTrigger.cpp
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(35) : error C2653: 'Aring': is not a class or namespace name
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(39) : error C2653: 'APawnWithCamera': is not a class or namespace name
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(39) : error C3861: 'StaticClass': identifier not found
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(41) : error C2653: 'APawnWithCamera': is not a class or namespace name
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(41) : error C3861: 'StaticClass': identifier not found
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : error C3861: 'GetWorld': identifier not found
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : error C2227: left of '->ServerTravel' must point to class/struct/union/generic type
+[2016.02.16-23.35.11:108][538]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : note: type is 'unknown-type'
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: F:\Download\starwing\StarWingururur\StarFox\Binaries\Win64\UE4Editor-StarFox-7998.dll
+[2016.02.16-23.35.11:108][538]CompilerResultsLog: Info Total build time: 13,46 seconds
+[2016.02.16-23.35.11:108][538]LogMainFrame: MainFrame: Module compiling took 13.536 seconds
+[2016.02.16-23.35.11:108][538]Warning: HotReload failed, recompile failed
+[2016.02.16-23.36.18:410][524]Recompiling StarFox...
+[2016.02.16-23.36.18:410][524]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 6416 Win64 Development -editorrecompile -canskiplink "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket -2015]
+[2016.02.16-23.36.18:411][524]Warning: Starting HotReload took  0.0s.
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: New page: Compilation - Feb 17, 2016, 1:36:29 AM
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info Parsing headers for StarFoxEditor
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info   Running UnrealHeaderTool "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" "F:\Download\starwing\StarWingururur\StarFox\Intermediate\Build\Win64\StarFoxEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info Reflection code generated for StarFoxEditor in 7,7312831 seconds
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info StarFox.generated.cpp
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info WinTrigger.cpp
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(35) : error C2653: 'Aring': is not a class or namespace name
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : error C3861: 'GetWorld': identifier not found
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : error C2227: left of '->ServerTravel' must point to class/struct/union/generic type
+[2016.02.16-23.36.29:975][933]CompilerResultsLog:Error: Error F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\WinTrigger.cpp(43) : note: type is 'unknown-type'
+[2016.02.16-23.36.29:975][933]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.36.29:976][933]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: F:\Download\starwing\StarWingururur\StarFox\Binaries\Win64\UE4Editor-StarFox-6416.dll
+[2016.02.16-23.36.29:976][933]CompilerResultsLog: Info Total build time: 11,48 seconds
+[2016.02.16-23.36.29:976][933]LogMainFrame: MainFrame: Module compiling took 11.574 seconds
+[2016.02.16-23.36.29:976][933]Warning: HotReload failed, recompile failed
+[2016.02.16-23.37.06:676][ 77]LogEditorViewport: Clicking on Actor (LMB): WallEnemyBP_C (WallEnemyBP11)
+[2016.02.16-23.37.07:814][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.37.08:898][159]Recompiling StarFox...
+[2016.02.16-23.37.08:898][159]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe StarFox -ModuleWithSuffix StarFox 5129 Win64 Development -editorrecompile -canskiplink "F:/Download/starwing/StarWingururur/StarFox/StarFox.uproject" -rocket  -rocket -2015]
+[2016.02.16-23.37.08:899][159]Warning: Starting HotReload took  0.0s.
+[2016.02.16-23.37.14:299][408]CompilerResultsLog: New page: Compilation - Feb 17, 2016, 1:37:14 AM
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info WinTrigger.cpp
+[2016.02.16-23.37.14:300][408]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(47) : warning C4263: 'void APawnWithCamera::TakeDamage(void)': member function does not override any base class virtual member function
+[2016.02.16-23.37.14:300][408]CompilerResultsLog:Error: Error f:\download\starwing\starwingururur\starfox\source\starfox\PawnWithCamera.h(115) : warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(216): note: see declaration of 'APawn::TakeDamage'
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info C:\Program Files (x86)\Epic Games\4.10\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info [2/2] Link UE4Editor-StarFox-5129.dll
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info    Creating library F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-5129.lib and object F:\Download\starwing\StarWingururur\StarFox\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-StarFox-5129.exp
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.16-23.37.14:300][408]CompilerResultsLog: Info Total build time: 5,35 seconds
+[2016.02.16-23.37.14:300][408]LogMainFrame: MainFrame: Module compiling took 5.409 seconds
+[2016.02.16-23.37.14:324][408]LogClass: Could not find existing class WinTrigger in package /Script/StarFox for HotReload, assuming new class
+[2016.02.16-23.37.14:325][408]LogClass: Function OnBeginOverlap is new.
+[2016.02.16-23.37.14:329][408]LogHotReload: Re-instancing WinTrigger after hot-reload.
+[2016.02.16-23.37.14:356][408]LogContentBrowser: Native class hierarchy updated for 'StarFox' in 0.0018 seconds. Added 8 classes and 2 folders.
+[2016.02.16-23.37.14:358][408]Warning: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2016.02.16-23.37.14:429][408]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1902 classes and 342 folders.
+[2016.02.16-23.37.40:136][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Win" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.37.40:159][887]LogSavePackage: Save=7.546230ms
+[2016.02.16-23.37.40:159][887]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/WinD7E69B2D4C14520499D667BDF41966AD.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap'
+[2016.02.16-23.37.40:160][887]LogSavePackage: Total save time: 9.428710ms
+[2016.02.16-23.37.40:160][887]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap
+[2016.02.16-23.37.40:160][887]LogFileHelpers: Saving map 'Win' took 0.074
+[2016.02.16-23.37.40:165][887]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.37.40:165][887]LightingResults: New page: Lighting Build
+[2016.02.16-23.37.40:184][887]LoadErrors: New page: Loading map: Win.umap
+[2016.02.16-23.37.40:186][887]MapCheck: New page: Map Check
+[2016.02.16-23.37.40:186][887]LightingResults: New page: Lighting Build
+[2016.02.16-23.37.40:200][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299A10A1BC0
+[2016.02.16-23.37.40:205][887]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.37.40:206][887]LogAIModule: Creating AISystem for world Win
+[2016.02.16-23.37.40:234][887]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.37.40:286][887]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.743ms to complete.
+[2016.02.16-23.37.40:287][887]LogFileHelpers: Loading map 'Win' took 0.126
+[2016.02.16-23.38.00:404][521]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.16-23.38.00:912][521]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.02.16-23.38.14:574][494]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.38.16:953][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinUI" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset" SILENT=true
+[2016.02.16-23.38.16:964][494]LogSavePackage: Save=8.395501ms
+[2016.02.16-23.38.16:964][494]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/WinUI05709AE54630AAF94646D2B10C9AA231.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset'
+[2016.02.16-23.38.16:965][494]LogSavePackage: Total save time: 9.906318ms
+[2016.02.16-23.38.16:965][494]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset
+[2016.02.16-23.38.16:967][494]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/GameOver.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.38.16:967][494]LightingResults: New page: Lighting Build
+[2016.02.16-23.38.16:984][494]LoadErrors: New page: Loading map: GameOver.umap
+[2016.02.16-23.38.16:984][494]MapCheck: New page: Map Check
+[2016.02.16-23.38.16:984][494]LightingResults: New page: Lighting Build
+[2016.02.16-23.38.17:004][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A0C9BD620
+[2016.02.16-23.38.17:009][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.38.17:040][494]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.38.17:097][494]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.903ms to complete.
+[2016.02.16-23.38.17:097][494]LogFileHelpers: Loading map 'GameOver' took 0.132
+[2016.02.16-23.38.55:493][502]LogAIModule: Creating AISystem for world Win
+[2016.02.16-23.38.55:497][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.16-23.38.56:622][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameOver" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/GameOver.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.38.56:719][502]LogSavePackage: Save=53.681026ms
+[2016.02.16-23.38.56:719][502]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/GameOver27931D6B4D3B820D8F65C4AA4B694AF6.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/GameOver.umap'
+[2016.02.16-23.38.56:720][502]LogSavePackage: Total save time: 62.604483ms
+[2016.02.16-23.38.56:720][502]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/GameOver.umap
+[2016.02.16-23.38.56:745][502]LogFileHelpers: Saving map 'GameOver' took 0.181
+[2016.02.16-23.38.56:748][502]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.38.56:748][502]LightingResults: New page: Lighting Build
+[2016.02.16-23.38.56:769][502]LoadErrors: New page: Loading map: Win.umap
+[2016.02.16-23.38.56:802][502]MapCheck: New page: Map Check
+[2016.02.16-23.38.56:802][502]LightingResults: New page: Lighting Build
+[2016.02.16-23.38.56:822][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299EB4511C0
+[2016.02.16-23.38.56:823][502]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A170D1B20
+[2016.02.16-23.38.56:831][502]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.38.56:854][502]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.38.56:907][502]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.681ms to complete.
+[2016.02.16-23.38.56:907][502]LogFileHelpers: Loading map 'Win' took 0.162
+[2016.02.16-23.39.07:808][307]LogAIModule: Creating AISystem for world GameOver
+[2016.02.16-23.39.07:809][307]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_CreateWidget_4 or K2Node_CreateWidget /Game/Maps/GameOver.GameOver:PersistentLevel.GameOver.EventGraph.K2Node_CreateWidget_4
+[2016.02.16-23.39.07:809][307]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_4.EdGraphPin_23674''
+[2016.02.16-23.39.07:810][307]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_CallFunction_2465 or K2Node_CallFunction /Game/Maps/GameOver.GameOver:PersistentLevel.GameOver.EventGraph.K2Node_CallFunction_2465
+[2016.02.16-23.39.07:810][307]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2465.EdGraphPin_23689''
+[2016.02.16-23.39.07:810][307]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_CallFunction_2465 or K2Node_CallFunction /Game/Maps/GameOver.GameOver:PersistentLevel.GameOver.EventGraph.K2Node_CallFunction_2465
+[2016.02.16-23.39.07:810][307]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2465.EdGraphPin_23691''
+[2016.02.16-23.39.07:810][307]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/GameOver.GameOver:PersistentLevel.GameOver.EventGraph.K2Node_VariableSet_630 or K2Node_VariableSet /Game/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_VariableSet_630
+[2016.02.16-23.39.07:810][307]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_630.EdGraphPin_23701''
+[2016.02.16-23.39.07:810][307]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Win.Win:PersistentLevel.Win.EventGraph.K2Node_CallFunction_2473 or K2Node_CallFunction /Game/Maps/GameOver.GameOver:PersistentLevel.GameOver.EventGraph.K2Node_CallFunction_2473
+[2016.02.16-23.39.07:811][307]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2473.EdGraphPin_23719''
+[2016.02.16-23.39.24:200][678]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.16-23.39.29:709][149]BlueprintLog: New page: Compile Win
+[2016.02.16-23.39.29:749][149]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.16-23.39.29:780][149]BlueprintEditorCompileResults: Info [2142.45] Compile of Win successful! [in 69 ms]
+[2016.02.16-23.39.33:814][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Win" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.39.33:914][459]LogSavePackage: Save=60.780212ms
+[2016.02.16-23.39.33:914][459]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/Win1A511D144D92C5E87E62E5BA7EE3413C.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap'
+[2016.02.16-23.39.33:915][459]LogSavePackage: Total save time: 67.678284ms
+[2016.02.16-23.39.33:915][459]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap
+[2016.02.16-23.39.33:946][459]LogFileHelpers: Saving map 'Win' took 0.198
+[2016.02.16-23.39.43:231][343]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.16-23.39.54:081][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.16-23.39.54:098][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DF6AB380
+[2016.02.16-23.39.54:100][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DF6AA980
+[2016.02.16-23.39.54:100][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A16F15760
+[2016.02.16-23.39.55:206][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Win" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.39.55:296][249]LogSavePackage: Save=57.753338ms
+[2016.02.16-23.39.55:296][249]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/Win30DD70DF41CAC751431241B62DF6E690.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap'
+[2016.02.16-23.39.55:297][249]LogSavePackage: Total save time: 63.620523ms
+[2016.02.16-23.39.55:297][249]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap
+[2016.02.16-23.39.55:319][249]LogFileHelpers: Saving map 'Win' took 0.173
+[2016.02.16-23.39.55:321][249]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/GameOver.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.39.55:321][249]LightingResults: New page: Lighting Build
+[2016.02.16-23.39.55:340][249]LoadErrors: New page: Loading map: GameOver.umap
+[2016.02.16-23.39.55:340][249]MapCheck: New page: Map Check
+[2016.02.16-23.39.55:340][249]LightingResults: New page: Lighting Build
+[2016.02.16-23.39.55:369][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002999C1D0D60
+[2016.02.16-23.39.55:376][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.39.55:400][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.39.55:455][249]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.914ms to complete.
+[2016.02.16-23.39.55:455][249]LogFileHelpers: Loading map 'GameOver' took 0.135
+[2016.02.16-23.39.59:070][602]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.39.59:100][602]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.39.59:101][602]LightingResults: New page: Lighting Build
+[2016.02.16-23.39.59:118][602]LoadErrors: New page: Loading map: LevelOne.umap
+[2016.02.16-23.39.59:118][602]MapCheck: New page: Map Check
+[2016.02.16-23.39.59:118][602]LightingResults: New page: Lighting Build
+[2016.02.16-23.39.59:148][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299AA08C900
+[2016.02.16-23.39.59:153][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.39.59:177][602]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.39.59:229][602]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.971ms to complete.
+[2016.02.16-23.39.59:229][602]LogFileHelpers: Loading map 'LevelOne' took 0.130
+[2016.02.16-23.40.03:922][967]LogAIModule: Creating AISystem for world Win
+[2016.02.16-23.40.03:972][967]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/Win.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.40.03:972][967]LightingResults: New page: Lighting Build
+[2016.02.16-23.40.03:989][967]LoadErrors: New page: Loading map: Win.umap
+[2016.02.16-23.40.03:990][967]MapCheck: New page: Map Check
+[2016.02.16-23.40.03:990][967]LightingResults: New page: Lighting Build
+[2016.02.16-23.40.04:011][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A1D22FB00
+[2016.02.16-23.40.04:012][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.40.04:033][967]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.40.04:087][967]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.752ms to complete.
+[2016.02.16-23.40.04:087][967]LogFileHelpers: Loading map 'Win' took 0.116
+[2016.02.16-23.41.29:213][684]BlueprintLog: New page: Compile WinUI
+[2016.02.16-23.41.29:293][684]BlueprintEditorCompileResults: Info [2261.97] Compile of WinUI successful! [in 80 ms]
+[2016.02.16-23.41.50:184][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299F00CD4E0
+[2016.02.16-23.41.50:184][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A1C7618A0
+[2016.02.16-23.41.50:194][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A1C763560
+[2016.02.16-23.41.50:218][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinUI" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset" SILENT=true
+[2016.02.16-23.41.50:241][296]LogSavePackage: Save=15.070340ms
+[2016.02.16-23.41.50:241][296]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/WinUIA2966F5F4733063798378686B3746295.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset'
+[2016.02.16-23.41.50:242][296]LogSavePackage: Total save time: 23.669280ms
+[2016.02.16-23.41.50:242][296]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/UI/WinUI.uasset
+[2016.02.16-23.41.53:333][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299F01C8EA0
+[2016.02.16-23.41.53:333][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299C9768720
+[2016.02.16-23.41.59:694][240]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.41.59:725][240]Cmd: MAP LOAD FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-23.41.59:725][240]LightingResults: New page: Lighting Build
+[2016.02.16-23.41.59:748][240]LoadErrors: New page: Loading map: LevelOne.umap
+[2016.02.16-23.41.59:749][240]MapCheck: New page: Map Check
+[2016.02.16-23.41.59:749][240]LightingResults: New page: Lighting Build
+[2016.02.16-23.41.59:773][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A0F722CA0
+[2016.02.16-23.41.59:774][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299F00CDD00
+[2016.02.16-23.41.59:783][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-23.41.59:808][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-23.41.59:865][240]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.25ms to complete.
+[2016.02.16-23.41.59:865][240]LogFileHelpers: Loading map 'LevelOne' took 0.142
+[2016.02.16-23.42.31:922][745]LogActor:Warning: MyWinTrigger_C /Engine/Transient.World_14:PersistentLevel.MyWinTrigger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.42.31:991][746]LogRenderer: Reallocating scene render targets to support 1208x588 (Frame:191770).
+[2016.02.16-23.42.58:661][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A17EC8860
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.MyWinTrigger:UserConstructionScript.K2Node_FunctionEntry_114' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.SKEL_MyWinTrigger_C' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.MyWinTrigger_C' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.MyWinTrigger:EventGraph.K2Node_Event_180' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.MyWinTrigger:EventGraph.K2Node_Event_181' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:667][621]LogMetaData: Removing '/Game/Blueprint/MyWinTrigger.MyWinTrigger:EventGraph.K2Node_Event_182' ref from Metadata '/Game/MyWinTrigger.PackageMetaData'
+[2016.02.16-23.42.58:704][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/MyWinTrigger" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Blueprint/MyWinTrigger.uasset" SILENT=true
+[2016.02.16-23.42.58:716][621]LogSavePackage: Save=11.053038ms
+[2016.02.16-23.42.58:716][621]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/MyWinTrigger71553D6E492619F145FD949832E09CF0.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Blueprint/MyWinTrigger.uasset'
+[2016.02.16-23.42.58:717][621]LogSavePackage: Total save time: 12.487892ms
+[2016.02.16-23.42.58:717][621]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Blueprint/MyWinTrigger.uasset
+[2016.02.16-23.43.02:467][803]LogActor:Warning: MyWinTrigger_C /Game/Maps/LevelOne.LevelOne:PersistentLevel.MyWinTrigger_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.02:971][844]LogActor:Warning: MyWinTrigger_C /Game/Maps/LevelOne.LevelOne:PersistentLevel.MyWinTrigger_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.22:568][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.43.23:552][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.43.24:272][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.16-23.43.24:681][711]LogEditorViewport: Clicking on Actor (LMB): MyWinTrigger_C (MyWinTrigger)
+[2016.02.16-23.43.30:252][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.43.30:252][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-23.43.30:252][205]PIE: New page: PIE session: LevelOne (Feb 17, 2016, 1:43:30 AM)
+[2016.02.16-23.43.30:252][205]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2016.02.16-23.43.30:271][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018254s)
+[2016.02.16-23.43.30:271][205]LogAIModule: Creating AISystem for world LevelOne
+[2016.02.16-23.43.30:271][205]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2016.02.16-23.43.30:272][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.019280s)
+[2016.02.16-23.43.30:272][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.MoveComp) Not registered. Aborting.
+[2016.02.16-23.43.30:300][205]LogInit: XAudio2 using 'Hörlurar (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.16-23.43.30:307][205]LogInit: FAudioDevice initialized.
+[2016.02.16-23.43.30:344][205]LogWorld: Game class is 'MyStarFoxGameModeBP_C'
+[2016.02.16-23.43.30:357][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2016.02.17-00.43.30
+[2016.02.16-23.43.30:357][205]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.30:357][205]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.30:358][205]LogWorld: Bringing up level for play took: 0.012762
+[2016.02.16-23.43.30:359][205]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.164
+[2016.02.16-23.43.30:359][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.43.48:896][998]LogGameMode: ProcessServerTravel: /Game/Maps/Win
+[2016.02.16-23.43.48:904][999]LogEngine: Server switch level: /Game/Maps/Win
+[2016.02.16-23.43.48:904][999]LogNet: Browse: /Game/Maps/Win
+[2016.02.16-23.43.48:904][999]LogLoad: LoadMap: /Game/Maps/Win
+[2016.02.16-23.43.48:927][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A0ED27600
+[2016.02.16-23.43.48:927][999]Cmd: MEM
+[2016.02.16-23.43.48:956][999]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-23.43.48:956][999]LogMemory: Process Physical Memory: 752.20 MB used, 1048.02 MB peak
+[2016.02.16-23.43.48:956][999]LogMemory: Process Virtual Memory: 2307.40 MB used, 2489.49 MB peak
+[2016.02.16-23.43.48:956][999]LogMemory: Physical Memory: 6029.57 MB used, 8144.43 MB total
+[2016.02.16-23.43.48:956][999]LogMemory: Virtual Memory: 3179.55 MB used, 134217728.00 MB total
+[2016.02.16-23.43.48:956][999]LogMemory: 
+[2016.02.16-23.43.48:956][999]Allocator Stats for TBB: (not implemented)
+[2016.02.16-23.43.49:001][999]LogAIModule: Creating AISystem for world Win
+[2016.02.16-23.43.49:001][999]LogWorld: Game class is 'StarFoxGameMode'
+[2016.02.16-23.43.49:002][999]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Win.Win up for play (max tick rate 0) at 2016.02.17-00.43.49
+[2016.02.16-23.43.49:002][999]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Win.Win:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.49:003][999]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Win.Win:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-23.43.49:003][999]LogWorld: Bringing up level for play took: 0.000799
+[2016.02.16-23.43.49:003][999]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.16-23.43.56:602][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.16-23.43.56:787][724]LogSavePackage: Save=155.494293ms
+[2016.02.16-23.43.56:787][724]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/LevelOneEF00D8544EFA4AFBCF04C19B044E7AF6.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap'
+[2016.02.16-23.43.56:788][724]LogSavePackage: Total save time: 163.955867ms
+[2016.02.16-23.43.56:788][724]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/Maps/LevelOne.umap
+[2016.02.16-23.43.56:812][724]LogFileHelpers: Saving map 'LevelOne' took 0.269
+[2016.02.16-23.43.56:816][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWinTrigger" FILE="F:/Download/starwing/StarWingururur/StarFox/Content/MyWinTrigger.uasset" SILENT=true
+[2016.02.16-23.43.56:818][724]LogSavePackage: Save=1.284093ms
+[2016.02.16-23.43.56:818][724]LogSavePackage: Moving 'F:/Download/starwing/StarWingururur/StarFox/Saved/MyWinTriggerF11104D04E952CC9453C4BA9A57FCFE5.tmp' to 'F:/Download/starwing/StarWingururur/StarFox/Content/MyWinTrigger.uasset'
+[2016.02.16-23.43.56:819][724]LogSavePackage: Total save time: 2.450604ms
+[2016.02.16-23.43.56:819][724]LogSavePackage:Display: Finished SavePackage F:/Download/starwing/StarWingururur/StarFox/Content/MyWinTrigger.uasset
+[2016.02.16-23.43.58:361][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.43.58:399][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2016.02.16-23.43.58:423][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A15130720
+[2016.02.16-23.43.58:554][827]Cmd: QUIT_EDITOR
+[2016.02.16-23.43.59:040][827]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.16-23.43.59:111][827]LogExit: Preparing to exit.
+[2016.02.16-23.43.59:597][827]LogExit: Editor shut down
+[2016.02.16-23.43.59:598][827]LogExit: Transaction tracking system shut down
+[2016.02.16-23.43.59:599][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DF6AAE80
+[2016.02.16-23.43.59:600][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299DF293100
+[2016.02.16-23.43.59:600][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299903E4E00
+[2016.02.16-23.43.59:601][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000299F506BD80
+[2016.02.16-23.43.59:946][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000029A0C9BE340
+[2016.02.16-23.43.59:946][827]LogExit: Object subsystem successfully closed.
+[2016.02.16-23.43.59:981][827]LogD3D11RHI: Shutdown
+[2016.02.16-23.43.59:981][827]LogD3D11RHI: CleanupD3DDevice
+[2016.02.16-23.44.00:057][827]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.16-23.44.00:098][827]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.16-23.44.00:100][827]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.16-23.44.00:106][827]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.16-23.44.00:106][827]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.16-23.44.00:107][827]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.02.16-23.44.00:107][827]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.02.16-23.44.00:108][827]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.02.16-23.44.00:109][827]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.02.16-23.44.00:109][827]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.02.16-23.44.00:110][827]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.02.16-23.44.00:110][827]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.02.16-23.44.00:110][827]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.02.16-23.44.00:110][827]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.02.16-23.44.00:540][827]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.02.16-23.44.00:541][827]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.02.16-23.44.00:541][827]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.02.16-23.44.00:542][827]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.02.16-23.44.00:542][827]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.02.16-23.44.00:542][827]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.02.16-23.44.00:543][827]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.02.16-23.44.00:543][827]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.02.16-23.44.00:543][827]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.02.16-23.44.00:543][827]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.02.16-23.44.00:544][827]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.02.16-23.44.00:544][827]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.02.16-23.44.00:544][827]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.02.16-23.44.00:544][827]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.02.16-23.44.00:545][827]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.02.16-23.44.00:545][827]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.02.16-23.44.00:545][827]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.02.16-23.44.00:546][827]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.02.16-23.44.00:546][827]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.02.16-23.44.00:547][827]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.02.16-23.44.00:547][827]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.02.16-23.44.00:548][827]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.02.16-23.44.00:548][827]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.02.16-23.44.00:549][827]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.02.16-23.44.00:551][827]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.02.16-23.44.00:551][827]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.02.16-23.44.00:551][827]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.02.16-23.44.00:551][827]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.02.16-23.44.00:552][827]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.02.16-23.44.00:552][827]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.02.16-23.44.00:552][827]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.02.16-23.44.00:554][827]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.02.16-23.44.00:554][827]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.02.16-23.44.00:555][827]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.02.16-23.44.00:555][827]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.02.16-23.44.00:555][827]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.02.16-23.44.00:555][827]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.02.16-23.44.00:555][827]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.02.16-23.44.00:556][827]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.02.16-23.44.00:556][827]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.02.16-23.44.00:556][827]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.02.16-23.44.00:556][827]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.02.16-23.44.00:556][827]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.02.16-23.44.00:557][827]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.02.16-23.44.00:557][827]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.02.16-23.44.00:751][827]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.02.16-23.44.00:752][827]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.16-23.44.00:753][827]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.16-23.44.00:770][827]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.16-23.44.00:770][827]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.16-23.44.00:771][827]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.16-23.44.00:771][827]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.16-23.44.00:772][827]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.16-23.44.00:773][827]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.16-23.44.00:774][827]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.16-23.44.00:774][827]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.16-23.44.00:774][827]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.16-23.44.00:775][827]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (106)
+[2016.02.16-23.44.00:775][827]LogModuleManager: Shutting down and abandoning module UObjectPlugin (105)
+[2016.02.16-23.44.00:775][827]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (104)
+[2016.02.16-23.44.00:775][827]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (103)
+[2016.02.16-23.44.00:777][827]LogModuleManager: Shutting down and abandoning module SourceControl (102)
+[2016.02.16-23.44.00:780][827]LogModuleManager: Shutting down and abandoning module GitSourceControl (101)
+[2016.02.16-23.44.00:781][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (100)
+[2016.02.16-23.44.00:781][827]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (99)
+[2016.02.16-23.44.00:781][827]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (98)
+[2016.02.16-23.44.00:781][827]LogModuleManager: Shutting down and abandoning module MeshPaint (97)
+[2016.02.16-23.44.00:781][827]LogModuleManager: Shutting down and abandoning module SlateReflector (96)
+[2016.02.16-23.44.00:782][827]LogModuleManager: Shutting down and abandoning module HotReload (95)
+[2016.02.16-23.44.00:782][827]LogModuleManager: Shutting down and abandoning module MainFrame (94)
+[2016.02.16-23.44.00:782][827]LogModuleManager: Shutting down and abandoning module LevelEditor (93)
+[2016.02.16-23.44.00:784][827]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.02.16-23.44.00:789][827]LogModuleManager: Shutting down and abandoning module AssetRegistry (91)
+[2016.02.16-23.44.00:885][827]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.02.16-23.44.00:887][827]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.02.16-23.44.00:889][827]LogModuleManager: Shutting down and abandoning module StarFox (88)
+[2016.02.16-23.44.00:889][827]LogModuleManager: Shutting down and abandoning module UdpMessaging (87)
+[2016.02.16-23.44.00:990][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (86)
+[2016.02.16-23.44.00:990][827]LogModuleManager: Shutting down and abandoning module Paper2D (85)
+[2016.02.16-23.44.00:992][827]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (84)
+[2016.02.16-23.44.00:995][827]LogModuleManager: Shutting down and abandoning module Media (83)
+[2016.02.16-23.44.00:995][827]LogModuleManager: Shutting down and abandoning module WmfMedia (82)
+[2016.02.16-23.44.00:996][827]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (81)
+[2016.02.16-23.44.00:996][827]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (80)
+[2016.02.16-23.44.00:996][827]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2016.02.16-23.44.00:996][827]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (78)
+[2016.02.16-23.44.00:997][827]LogModuleManager: Shutting down and abandoning module FunctionalTesting (77)
+[2016.02.16-23.44.00:997][827]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (76)
+[2016.02.16-23.44.00:998][827]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (75)
+[2016.02.16-23.44.00:998][827]LogModuleManager: Shutting down and abandoning module MessageLog (74)
+[2016.02.16-23.44.00:998][827]LogModuleManager: Shutting down and abandoning module Sequencer (73)
+[2016.02.16-23.44.00:998][827]LogModuleManager: Shutting down and abandoning module AssetTools (72)
+[2016.02.16-23.44.00:999][827]LogModuleManager: Shutting down and abandoning module UMGEditor (71)
+[2016.02.16-23.44.00:999][827]LogModuleManager: Shutting down and abandoning module UMG (70)
+[2016.02.16-23.44.00:999][827]LogModuleManager: Shutting down and abandoning module Slate (69)
+[2016.02.16-23.44.00:999][827]LogModuleManager: Shutting down and abandoning module EditorStyle (68)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module SessionServices (67)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (66)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (65)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module XAudio2 (64)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module Networking (62)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module Core (61)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module KismetCompiler (60)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module PhysXFormats (59)
+[2016.02.16-23.44.01:002][827]LogModuleManager: Shutting down and abandoning module MeshUtilities (58)
+[2016.02.16-23.44.01:003][827]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.02.16-23.44.01:097][827]LogDerivedDataCache: Shutdown
+[2016.02.16-23.44.01:097][827]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.02.16-23.44.01:098][827]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.02.16-23.44.01:098][827]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.02.16-23.44.01:100][827]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.02.16-23.44.01:100][827]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.02.16-23.44.01:100][827]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.02.16-23.44.01:101][827]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.02.16-23.44.01:102][827]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.02.16-23.44.01:102][827]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.02.16-23.44.01:102][827]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.02.16-23.44.01:102][827]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.02.16-23.44.01:103][827]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.02.16-23.44.01:104][827]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.02.16-23.44.02:106][827]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.02.16-23.44.02:108][827]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.16-23.44.02:109][827]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.16-23.44.02:127][827]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.16-23.44.02:128][827]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.16-23.44.02:129][827]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.16-23.44.02:129][827]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.16-23.44.02:131][827]LogExit: Exiting.
+[2016.02.16-23.44.02:145][827]Log file closed, 02/17/16 00:44:02

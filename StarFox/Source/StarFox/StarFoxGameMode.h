@@ -18,7 +18,7 @@ public:
 		TSubclassOf<class UUserWidget> HUDWidgetClass;
 
 	UPROPERTY(VisibleAnywhere)
-		int32 Time = 2000;
+		int32 Time = 1000;
 
 	UFUNCTION(BlueprintPure, Category = "Time")
 		int32 GetTime();
@@ -29,7 +29,7 @@ public:
 	UPROPERTY()
 	class UUserWidget* CurrentWidget;
 
-	
+
 
 	
 

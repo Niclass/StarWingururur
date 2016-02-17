@@ -6,7 +6,7 @@
 
 void AStarFoxGameMode::BeginPlay()
 {
-	
+
 
 	Super::BeginPlay();
 	if (HUDWidgetClass)
@@ -22,7 +22,10 @@ void AStarFoxGameMode::BeginPlay()
 void AStarFoxGameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Time--;
+
+		Time--;
+
+
 	if (Time <= 0)
 	{
 		GetWorld()->ServerTravel(FString("/Game/Maps/GameOver"));

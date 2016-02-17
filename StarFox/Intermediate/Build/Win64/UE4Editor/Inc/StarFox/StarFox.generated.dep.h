@@ -26,3 +26,6 @@
 #ifndef STARFOX_WallEnemy_generated_h
 	#include "WallEnemy.h"
 #endif
+#ifndef STARFOX_WinTrigger_generated_h
+	#include "WinTrigger.h"
+#endif

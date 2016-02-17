@@ -1,1 +1,1 @@
-#include "C:\Users\Niclas\Documents\GitHub\StarWingururur\StarFox\Source\StarFox\StarFox.h"
+#include "F:\Download\starwing\StarWingururur\StarFox\Source\StarFox\StarFox.h"
